@@ -1,4 +1,4 @@
-#!/Users/davidhansonc/Desktop/church_in_tucson_email/venv/bin/python3.11
+#!/Users/davidhansonc/Desktop/church_in_tucson_email/venv/bin/python3.9
 # -*- coding: utf-8 -*-
 import re
 import sys
