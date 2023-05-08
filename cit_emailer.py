@@ -32,7 +32,10 @@ if __name__ == "__main__":
     # Create secure connection with server and send email
     context = ssl.create_default_context()
     with smtplib.SMTP_SSL("smtpout.secureserver.net", 465, context=context) as server: #port 465
-        server.login(sender, password)
-        server.sendmail(
-            sender, church_email_list, message.as_string()
-        )
+        try:
+            server.login(sender, password)
+            server.sendmail(
+                sender, church_email_list, message.as_string()
+            )
+        except:
+            raise Exception("Wrong password, try again")
