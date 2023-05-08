@@ -1,5 +1,5 @@
 import datetime
-from set_schedule import get_schedule, lords_date
+from tools.set_schedule import get_schedule, lords_date
 
 '''UPDATE THE FOLLOWING'''
 # update weekly
