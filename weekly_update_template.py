@@ -7,30 +7,25 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-For those signed up for the summer video training, here are a few announcements. The dates of the video training will 
-be July 6th to July 18th every evening at 7:00 PM except for Wednesday the 12th. We'll have testing from 7:00 to 7:30 
-and the message will start at 7:30. There are up to two excused absences allowed, but these 
-need to be reported before the start of the video training, otherwise they will be counted as unexcused. 
-<br><br>
-Normal schedule this week.
+We have the normal church schedule this week.
 
 <br><br>
-Jesus is Lord!
+Praise the Lord!
 """
 
-hwmr_week = 2  # update weekly (ascending)
-group_seed = 1 # update weekly (DEscending 6-->1)
+hwmr_week = 3  # update weekly (ascending)
+group_seed = 6 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of 1 John (message 8)" # update weekly (ascending)
-thursday_meeting = f"Life-study of Acts (message 60)" # update weekly (ascending)
-friday_meeting = f"Life-study of First Corinthians (message 67)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 9)" # update weekly (ascending)
+monday_meeting = f"Life-study of 1 John (message 7)" # update weekly (ascending)
+thursday_meeting = f"Life-study of Acts (message 61)" # update weekly (ascending)
+friday_meeting = f"Life-study of First Corinthians (message 68)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 10)" # update weekly (ascending)
 
 
 HWMR = f"""  
 HWMR: 
-The Divine Dispensing of the Divine Trinity for the Divine Economy
+1 & 2 Chronicles, Esra, Nehemiah, and Esther
 , week {hwmr_week}
 """
 HWMR_LSM = """
@@ -46,6 +41,9 @@ HWMR_kindle = """
 https://www.amazon.com/Holy-Word-Morning-Revival-Crystallization-study-ebook/dp/B0BRQV3DD5/ref=sr_1_1?crid=XQ85WC25BH1U&keywords=volume+01+chronicles+morning+revival&qid=1682390586&s=digital-text&sprefix=volume+01+chronicles+morning+revival%2Cdigital-text%2C150&sr=1-1
 """
 
+
+
+#### Don't touch below usually ####
 
 schedule = get_schedule(group_seed)
 lords_day = lords_date(datetime.date.today())
