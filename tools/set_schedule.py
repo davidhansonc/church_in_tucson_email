@@ -1,4 +1,4 @@
-from linked_list import LinkedList
+from tools.linked_list import LinkedList
 import datetime
 
 

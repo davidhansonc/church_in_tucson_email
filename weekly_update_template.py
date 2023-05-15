@@ -7,20 +7,23 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-We have the normal church schedule this week.
+The Memorial Day conference is coming up in two weeks. The conference will be streamed and available to all. 
+Saints who are not going to the conference can watch individually or gather to watch the messages together. 
+<br><br>
+We have the normal schedule this week. The morning revival this week is on the Divine encouragement of the prophets of God.
 
 <br><br>
-Praise the Lord!
+Praise the Lord.
 """
 
-hwmr_week = 3  # update weekly (ascending)
-group_seed = 6 # update weekly (DEscending 6-->1)
+hwmr_week = 4  # update weekly (ascending)
+group_seed = 1 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of 1 John (message 7)" # update weekly (ascending)
-thursday_meeting = f"Life-study of Acts (message 61)" # update weekly (ascending)
-friday_meeting = f"Life-study of First Corinthians (message 68)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 10)" # update weekly (ascending)
+monday_meeting = f"Life-study of 1 John (message 8)" # update weekly (ascending)
+thursday_meeting = f"Life-study of Acts (message 62)" # update weekly (ascending)
+friday_meeting = f"Life-study of First Corinthians (message 69)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 11)" # update weekly (ascending)
 
 
 HWMR = f"""  
