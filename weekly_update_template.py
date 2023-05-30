@@ -7,20 +7,20 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-The Memorial Day conference is coming up in two weeks. The conference will be streamed and available to all. 
-Saints who are not going to the conference can watch individually or gather to watch the messages together. 
-<br><br>
-We have the normal schedule this week. The morning revival this week is on the Divine encouragement of the prophets of God.
+This week the only church meetings are the prayer meeting on Tuesday and the Lord's table/prophsying meetings on the 
+Lord's day. This weekend is the Memorial day conference, starting on Friday. Saints may watch it on their own or gather 
+to watch together. We will send out information on how to watch the conference later this week. 
+On other weekdays, saints are encouraged to gather together for ministry and fellowship as they are able and burdened.
 
 <br><br>
-Praise the Lord.
+Jesus is Lord!
 """
 
-hwmr_week = 4  # update weekly (ascending)
-group_seed = 1 # update weekly (DEscending 6-->1)
+hwmr_week = 5  # update weekly (ascending)
+group_seed = 4 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of 1 John (message 8)" # update weekly (ascending)
+monday_meeting = f"Life-study of 1 John (message X)" # update weekly (ascending)
 thursday_meeting = f"Life-study of Acts (message 62)" # update weekly (ascending)
 friday_meeting = f"Life-study of First Corinthians (message 69)" # update weekly (ascending)    
 saturday_meeting = f"Life-study of John (message 11)" # update weekly (ascending)
@@ -45,15 +45,10 @@ https://www.amazon.com/Holy-Word-Morning-Revival-Crystallization-study-ebook/dp/
 """
 
 
-
-#### Don't touch below usually ####
-
 schedule = get_schedule(group_seed)
 lords_day = lords_date(datetime.date.today())
 
-
-message_html = f"""
-<html>
+message_html = f""" <html>
   <head></head>
   <body>
     <p> {announcements} </p>
@@ -85,16 +80,54 @@ message_html = f"""
 
     <h2>Meeting Schedule</h2>
         <p>
-        Monday: 7:00 PM {monday_meeting} <br><br>
         Tuesday: 7:30 PM - Prayer Meeting <br><br>
-        Wednesday: No Meeting <br><br>
-        Thursday: 7:30 PM {thursday_meeting} <br><br>
-        Friday: 7:30 PM {friday_meeting} <br><br>
-        Saturday: 7:30 PM {saturday_meeting} <br><br>
         Lord's Day Morning: 10:00 AM - 12:00 PM Table and prophesying <br><br>
   </body>
 </html>
 """
+
+# message_html = f""" <html>
+#   <head></head>
+#   <body>
+#     <p> {announcements} </p>
+
+#     <h2>Next Lord's Day ({lords_day})</h2>
+#         <h3>Prophesying Schedule:</h3>
+#         <p>
+#         <ul>
+#             <li>Day 1:  Group {schedule[0]}
+#             <li>Day 2:  Group {schedule[1]}
+#             <li>Day 3:  Group {schedule[2]}
+#             <li>Day 4:  Group {schedule[3]}
+#             <li>Day 5:  Group {schedule[4]}
+#             <li>Day 6:  Group {schedule[5]}
+#         </ul>
+#         <i>{HWMR}</i><br>
+#         Order a physical copy of the HWMR <a href="{HWMR_LSM}">here</a>, 
+#         <br>
+#         Electronic copies are here:
+#         <ul>
+#           <li> <a href="{HWMR_kindle}">Kindle</a>
+#           <li> <a href="{HWMR_google}">Google Play</a>
+#           <li> <a href="{HWMR_apple}">Apple</a>
+#         </ul><br>
+
+#         For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
+#         <a href="https://drive.google.com/file/d/19njXktu271Hx_19Le8r9abYlztqbz3t8/view?usp=sharing">this link</a>.<br>
+#         </p>
+
+#     <h2>Meeting Schedule</h2>
+#         <p>
+#         Monday: 7:00 PM {monday_meeting} <br><br>
+#         Tuesday: 7:30 PM - Prayer Meeting <br><br>
+#         Wednesday: No Meeting <br><br>
+#         Thursday: 7:30 PM {thursday_meeting} <br><br>
+#         Friday: 7:30 PM {friday_meeting} <br><br>
+#         Saturday: 7:30 PM {saturday_meeting} <br><br>
+#         Lord's Day Morning: 10:00 AM - 12:00 PM Table and prophesying <br><br>
+#   </body>
+# </html>
+# """
 
 message_text = f"""
 If you see this, please reply and ask for a direct email with the schedule and announcements.
