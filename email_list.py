@@ -1,6 +1,6 @@
 email_list = {
-    "Office": "office@churchintucson.org",
-    "Jessica Diaz-Hanson": "jessicapdiaz5@gmail.com",
+    # "Office": "office@churchintucson.org",
+    # "Jessica Diaz-Hanson": "jessicapdiaz5@gmail.com",
     "David Cheng": "cth750513@gmail.com",
     "Grace Cheng": "hsiehgrace24@gmail.com",
     "Kevin Cheng": "cheng.kevin23@gmail.com",
