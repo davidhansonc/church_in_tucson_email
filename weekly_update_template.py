@@ -7,23 +7,21 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-This week the only church meetings are the prayer meeting on Tuesday and the Lord's table/prophsying meetings on the 
-Lord's day. This weekend is the Memorial day conference, starting on Friday. Saints may watch it on their own or gather 
-to watch together. We will send out information on how to watch the conference later this week. 
-On other weekdays, saints are encouraged to gather together for ministry and fellowship as they are able and burdened.
+Similar to last week, there will be no church meetings until Lord's day morning for the table meeting due to the 
+video training schedule. For the Holy Word for Morning Revival we will repeat week 11. 
 
 <br><br>
-Jesus is Lord!
+Praise the Lor!
 """
 
-hwmr_week = 5  # update weekly (ascending)
-group_seed = 4 # update weekly (DEscending 6-->1)
+hwmr_week = 11  # update weekly (ascending)
+group_seed = 3 # update weekly (DEscending 6-->1)
 
 
 monday_meeting = f"Life-study of 1 John (message X)" # update weekly (ascending)
-thursday_meeting = f"Life-study of Acts (message 62)" # update weekly (ascending)
-friday_meeting = f"Life-study of First Corinthians (message 69)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 11)" # update weekly (ascending)
+thursday_meeting = f"Life-study of Acts (message 63)" # update weekly (ascending)
+friday_meeting = f"Life-study of First Corinthians (message 70)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 12)" # update weekly (ascending)
 
 
 HWMR = f"""  
@@ -47,6 +45,7 @@ https://www.amazon.com/Holy-Word-Morning-Revival-Crystallization-study-ebook/dp/
 
 schedule = get_schedule(group_seed)
 lords_day = lords_date(datetime.date.today())
+
 
 message_html = f""" <html>
   <head></head>
@@ -77,11 +76,6 @@ message_html = f""" <html>
         For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
         <a href="https://drive.google.com/file/d/19njXktu271Hx_19Le8r9abYlztqbz3t8/view?usp=sharing">this link</a>.<br>
         </p>
-
-    <h2>Meeting Schedule</h2>
-        <p>
-        Tuesday: 7:30 PM - Prayer Meeting <br><br>
-        Lord's Day Morning: 10:00 AM - 12:00 PM Table and prophesying <br><br>
   </body>
 </html>
 """
@@ -118,7 +112,6 @@ message_html = f""" <html>
 
 #     <h2>Meeting Schedule</h2>
 #         <p>
-#         Monday: 7:00 PM {monday_meeting} <br><br>
 #         Tuesday: 7:30 PM - Prayer Meeting <br><br>
 #         Wednesday: No Meeting <br><br>
 #         Thursday: 7:30 PM {thursday_meeting} <br><br>
