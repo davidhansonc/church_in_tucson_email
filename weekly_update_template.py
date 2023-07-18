@@ -7,22 +7,24 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-The saints in the video training have two more messages and the last will be on Tuesday evening. The next church meeting will 
-be on Thursday night in the Life-study of Acts. <br><br>
+This week we are resuming the Holy Word for Morning Revival with week 12 
+and we will have the regular prophesying meeting on Lord's day.
+<br><br>
 
-This week we are in week 12 of the Holy Word for Morning Revival. 
+The regular church meetings are still suspended until the video 
+training is over. The current plan is for the next church meeting to be on Thursday night at 7:30 PM. 
 
 <br><br>
 Praise the Lord!
 """
 
 hwmr_week = 12  # update weekly (ascending)
-group_seed = 4 # update weekly (DEscending 6-->1)
+group_seed = 2 # update weekly (DEscending 6-->1)
 
 
 monday_meeting = f"Life-study of First John (message 15)" # update weekly (ascending)
 thursday_meeting = f"Life-study of Acts (message 68)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 5)" # update weekly (ascending)    
+friday_meeting = f"Life-study of Hebrews (message 6)" # update weekly (ascending)    
 saturday_meeting = f"Life-study of John (message 17)" # update weekly (ascending)
 
 
