@@ -7,34 +7,30 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-This week we are resuming the Holy Word for Morning Revival with week 12 
-and we will have the regular prophesying meeting on Lord's day.
-<br><br>
-
-The regular church meetings are still suspended until the video 
-training is over. The current plan is for the next church meeting to be on Thursday night at 7:30 PM. 
+This week we are moving to the HWMR entitled "Making Ourselves Ready for the Lord's Coming". We are back to the normal 
+meeting schedule in the Life-studies. See below!
 
 <br><br>
-Praise the Lord!
+Praise the Lord.
 """
 
-hwmr_week = 12  # update weekly (ascending)
-group_seed = 2 # update weekly (DEscending 6-->1)
+hwmr_week = 1  # update weekly (ascending)
+group_seed = 1 # update weekly (DEscending 6-->1)
 
 
 monday_meeting = f"Life-study of First John (message 15)" # update weekly (ascending)
 thursday_meeting = f"Life-study of Acts (message 68)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 6)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 17)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 7)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 18)" # update weekly (ascending)
 
 
 HWMR = f"""  
 HWMR: 
-1 & 2 Chronicles, Esra, Nehemiah, and Esther
+Making Ourselves Ready for the Lord's Coming
 , week {hwmr_week}
 """
 HWMR_LSM = """
-https://www.livingstream.com/en/holy-word-for-morning-revival/99999176-hwmr-crystallization-study-of-1-2-chronicles-ezra-nehemiah-and-esther-vol-2.html
+https://www.livingstream.com/en/holy-word-for-morning-revival/99999229-hwmr-making-ourselves-ready-for-the-lords-coming.html
 """
 HWMR_apple = """
 """
@@ -65,14 +61,8 @@ message_html = f""" <html>
             <li>Day 6:  Group {schedule[5]}
         </ul>
         <i>{HWMR}</i><br>
-        Order a physical copy of the HWMR <a href="{HWMR_LSM}">here</a>, 
+        Order a physical copy of the HWMR or get an electronic copy <a href="{HWMR_LSM}">here</a>. 
         <br>
-        Electronic copies are here:
-        <ul>
-          <li> <a href="{HWMR_kindle}">Kindle</a>
-          <li> <a href="{HWMR_google}">Google Play</a>
-          <li> <a href="{HWMR_apple}">Apple</a>
-        </ul><br>
 
         For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
         <a href="https://drive.google.com/file/d/19njXktu271Hx_19Le8r9abYlztqbz3t8/view?usp=sharing">this link</a>.<br>
@@ -80,10 +70,12 @@ message_html = f""" <html>
 
     <h2>Meeting Schedule</h2>
         <p>
+        Monday: 7:00 PM {monday_meeting} <br><br>
+        Tuesday: 7:30 PM prayer meeting <br><br>
         Thursday: 7:30 PM {thursday_meeting} <br><br>
         Friday: 7:30 PM {friday_meeting} <br><br>
         Saturday: 7:30 PM {saturday_meeting} <br><br>
-        Lord's Day Morning: 10:00 AM - 12:00 PM Table and prophesying <br><br>
+        Lord's Day Morning: 10:00 AM - 12:00 PM Table and prophesying meetings<br><br>
   </body>
 </html>
 """
