@@ -7,21 +7,20 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-This week we are moving to the HWMR entitled "Making Ourselves Ready for the Lord's Coming". We are back to the normal 
-meeting schedule in the Life-studies. See below!
+Normal schedule this week.
 
 <br><br>
-Praise the Lord.
+Praise the Lord!
 """
 
-hwmr_week = 1  # update weekly (ascending)
-group_seed = 1 # update weekly (DEscending 6-->1)
+hwmr_week = 2  # update weekly (ascending)
+group_seed = 6 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 15)" # update weekly (ascending)
-thursday_meeting = f"Life-study of Acts (message 68)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 7)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 18)" # update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 16)" # update weekly (ascending)
+thursday_meeting = f"Life-study of Acts (message 69)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 8)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 19)" # update weekly (ascending)
 
 
 HWMR = f"""  
