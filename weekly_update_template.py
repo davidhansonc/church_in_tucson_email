@@ -7,20 +7,22 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-Normal schedule this week.
+We have the normal schedule this week. If you are planning to go to the Thanksgiving conference in Dallas and you want 
+to get a hotel room early, you can use the following link to reserve a room with the LSM discount: 
+https://book.passkey.com/event/50571223/owner/3004/home
 
 <br><br>
 Praise the Lord!
 """
 
-hwmr_week = 2  # update weekly (ascending)
-group_seed = 6 # update weekly (DEscending 6-->1)
+hwmr_week = 3  # update weekly (ascending)
+group_seed = 5 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 16)" # update weekly (ascending)
-thursday_meeting = f"Life-study of Acts (message 69)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 8)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 19)" # update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 17)" # update weekly (ascending)
+thursday_meeting = f"Life-study of Acts (message 70)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 9)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 20)" #update weekly (ascending)
 
 
 HWMR = f"""  
