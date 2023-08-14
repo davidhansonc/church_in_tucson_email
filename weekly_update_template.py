@@ -7,22 +7,20 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-We have the normal schedule this week. If you are planning to go to the Thanksgiving conference in Dallas and you want 
-to get a hotel room early, you can use the following link to reserve a room with the LSM discount: 
-https://book.passkey.com/event/50571223/owner/3004/home
+This week we have the miraculously normal schedule. See the details below.
 
 <br><br>
 Praise the Lord!
 """
 
-hwmr_week = 3  # update weekly (ascending)
-group_seed = 5 # update weekly (DEscending 6-->1)
+hwmr_week = 4  # update weekly (ascending)
+group_seed = 4 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 17)" # update weekly (ascending)
-thursday_meeting = f"Life-study of Acts (message 70)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 9)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 20)" #update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 18)" # update weekly (ascending)
+thursday_meeting = f"Life-study of Acts (message 71)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 10)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 21)" #update weekly (ascending)
 
 
 HWMR = f"""  
@@ -63,10 +61,14 @@ message_html = f""" <html>
         </ul>
         <i>{HWMR}</i><br>
         Order a physical copy of the HWMR or get an electronic copy <a href="{HWMR_LSM}">here</a>. 
-        <br>
+        <br><br>
 
         For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
-        <a href="https://drive.google.com/file/d/19njXktu271Hx_19Le8r9abYlztqbz3t8/view?usp=sharing">this link</a>.<br>
+        <a href="https://drive.google.com/file/d/19njXktu271Hx_19Le8r9abYlztqbz3t8/view?usp=sharing">this link</a>.
+        <br><br>
+        
+        See <a href="https://book.passkey.com/event/50571223/owner/3004/home">this link</a> to reserve a hotel with 
+        the LSM discount for the upcoming Dallas Thanksgiving conference.
         </p>
 
     <h2>Meeting Schedule</h2>
