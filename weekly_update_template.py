@@ -7,20 +7,22 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-This week we have the miraculously normal schedule. See the details below.
+We have the normal schedule this week. Next week we will start the HWMR from the recent ITERO entitled 
+"Knowing, Experiencing, and Living the All-inclusive Christ for the Genuine Church Life'. The links are updated below if 
+you need to buy a copy. Below there is also an added link to the website for info and sign-up for the Germany gospel trips.
 
 <br><br>
-Praise the Lord!
+Jesus is Lord!
 """
 
-hwmr_week = 4  # update weekly (ascending)
-group_seed = 4 # update weekly (DEscending 6-->1)
+hwmr_week = 5  # update weekly (ascending)
+group_seed = 3 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 18)" # update weekly (ascending)
-thursday_meeting = f"Life-study of Acts (message 71)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 10)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 21)" #update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 19)" # update weekly (ascending)
+thursday_meeting = f"Life-study of Acts (message 72)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 11)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 22)" #update weekly (ascending)
 
 
 HWMR = f"""  
@@ -29,13 +31,16 @@ Making Ourselves Ready for the Lord's Coming
 , week {hwmr_week}
 """
 HWMR_LSM = """
-https://www.livingstream.com/en/holy-word-for-morning-revival/99999229-hwmr-making-ourselves-ready-for-the-lords-coming.html
+https://www.livingstream.com/en/holy-word-for-morning-revival/99999246-hwmr-knowing-experiencing-and-living-the-all-inclusive-christ-for-the-genuine-church-life.html
 """
 HWMR_apple = """
+https://books.apple.com/ec/book/the-holy-word-for-morning-revival-knowing/id6447316633
 """
 HWMR_google = """
+https://play.google.com/store/books/details/The_Holy_Word_for_Morning_Revival_Knowing_Experien?id=E6S3EAAAQBAJ&hl=en_US&gl=US&pli=1
 """
 HWMR_kindle = """
+https://www.amazon.com/Holy-Word-Morning-Revival-All-inclusive-ebook/dp/B0C1L7X257
 """
 
 
@@ -60,15 +65,25 @@ message_html = f""" <html>
             <li>Day 6:  Group {schedule[5]}
         </ul>
         <i>{HWMR}</i><br>
-        Order a physical copy of the HWMR or get an electronic copy <a href="{HWMR_LSM}">here</a>. 
-        <br><br>
+        If you need a physical copy of the upcoming HWMR book, see the <a href="{HWMR_LSM}">LSM Bookstore</a>.<br>
+        For electronic versions, see the following links:
+        <ul>
+          <li> <a href="{HWMR_kindle}">Kindle</a>
+          <li> <a href="{HWMR_google}">Google Play</a>
+          <li> <a href="{HWMR_apple}">iBook</a>
+        </ul>
 
         For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
-        <a href="https://drive.google.com/file/d/19njXktu271Hx_19Le8r9abYlztqbz3t8/view?usp=sharing">this link</a>.
+        <a href="https://drive.google.com/file/d/1byQPJ73KjIZqgHkgW_U-4MS6fbE5eRQU/view?usp=drive_link">this link</a>.
         <br><br>
         
         See <a href="https://book.passkey.com/event/50571223/owner/3004/home">this link</a> to reserve a hotel with 
         the LSM discount for the upcoming Dallas Thanksgiving conference.
+        <br><br>
+
+        <a href="https://sites.google.com/view/elimsprings/english/events/gospel-trips-2023">Here</a> 
+        is the link for info and to sign up for the October Germany gospel trips. 
+        <br><br>
         </p>
 
     <h2>Meeting Schedule</h2>
