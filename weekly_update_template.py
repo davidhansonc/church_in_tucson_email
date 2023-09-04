@@ -7,21 +7,22 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-We have the normal schedule this week. We are beginning week 1 of the new HWMR from the recent ITERO. 
-See the links below if you still need to get a copy.
+We have the normal schedule this week. If you are planning to go to Dallas for the Thangsgiving conference, 
+it's getting to the time to buy flights and make hospitality arrangements. See the link below for the link 
+to the hotel with the LSM discount.
 
 <br><br>
-Jesus is Lord!
+Praise the Lord!
 """
 
-hwmr_week = 1  # update weekly (ascending)
-group_seed = 2 # update weekly (DEscending 6-->1)
+hwmr_week = 2  # update weekly (ascending)
+group_seed = 1 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 20)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 1)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 12)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 23)" #update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 21)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 2)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 13)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 24)" #update weekly (ascending)
 
 
 HWMR = f"""
@@ -75,13 +76,13 @@ message_html = f""" <html>
         <a href="https://drive.google.com/file/d/1byQPJ73KjIZqgHkgW_U-4MS6fbE5eRQU/view?usp=drive_link">this link</a>.
         <br><br>
         
-        See <a href="https://book.passkey.com/event/50571223/owner/3004/home">this link</a> to reserve a hotel with 
-        the LSM discount for the upcoming Dallas Thanksgiving conference.
-        <br><br>
-
-        <a href="https://sites.google.com/view/elimsprings/english/events/gospel-trips-2023">Here</a> 
-        is the link for info and to sign up for the October Germany gospel trips. 
-        <br><br>
+        Other useful links:
+        <ul>
+          <li> See <a href="https://book.passkey.com/event/50571223/owner/3004/home">this link</a> to reserve a hotel with 
+                the LSM discount for the upcoming Dallas Thanksgiving conference.
+          <li> <a href="https://sites.google.com/view/elimsprings/english/events/gospel-trips-2023">Here</a> 
+                is the link for info and to sign up for the October Germany gospel trips. 
+        </ul>
         </p>
 
     <h2>Meeting Schedule</h2>
