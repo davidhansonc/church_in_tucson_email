@@ -1,5 +1,8 @@
 email_list = {
-    # "Office": "office@churchintucson.org",
+    "Office": "office@churchintucson.org",
+}
+
+full_email_list = {
     "Jessica Diaz-Hanson": "jessicapdiaz5@gmail.com",
     "David Cheng": "cth750513@gmail.com",
     "Grace Cheng": "hsiehgrace24@gmail.com",
@@ -31,5 +34,5 @@ email_list = {
     # "Abram": "abram.liu@gmail.com",
 
 if __name__ == "__main__":
-	for saint, email in email_list.items():
+	for saint, email in full_email_list.items():
 		print(email)

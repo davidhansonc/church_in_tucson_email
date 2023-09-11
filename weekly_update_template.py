@@ -7,22 +7,20 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-We have the normal schedule this week. If you are planning to go to Dallas for the Thangsgiving conference, 
-it's getting to the time to buy flights and make hospitality arrangements. See the link below for the link 
-to the hotel with the LSM discount.
+We have the normal schedule this week.
 
 <br><br>
-Praise the Lord!
+Enjoy Him!
 """
 
-hwmr_week = 2  # update weekly (ascending)
-group_seed = 1 # update weekly (DEscending 6-->1)
+hwmr_week = 3  # update weekly (ascending)
+group_seed = 6 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 21)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 2)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 13)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 24)" #update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 22)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 3)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 14)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 25)" #update weekly (ascending)
 
 
 HWMR = f"""
