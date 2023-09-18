@@ -3,6 +3,7 @@ email_list = {
 }
 
 full_email_list = {
+    "David Hanson": "davidhanson.c@gmail.com"
     "Jessica Diaz-Hanson": "jessicapdiaz5@gmail.com",
     "David Cheng": "cth750513@gmail.com",
     "Grace Cheng": "hsiehgrace24@gmail.com",
@@ -29,6 +30,7 @@ full_email_list = {
     "Judy Chen": "kitchenjhc@gmail.com",
     "Marco": "azbboy520@yahoo.com",
     "Phoebe Zhang": "fengmingz85@gmail.com",
+    "Efrain": "Efrainsan40@gmail.com",
 }
 
     # "Abram": "abram.liu@gmail.com",

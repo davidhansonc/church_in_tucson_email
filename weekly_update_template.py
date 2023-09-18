@@ -13,14 +13,14 @@ We have the normal schedule this week.
 Enjoy Him!
 """
 
-hwmr_week = 3  # update weekly (ascending)
-group_seed = 6 # update weekly (DEscending 6-->1)
+hwmr_week = 4  # update weekly (ascending)
+group_seed = 5 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 22)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 3)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 14)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 25)" #update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 23)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 4)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 15)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 26)" #update weekly (ascending)
 
 
 HWMR = f"""
@@ -63,7 +63,7 @@ message_html = f""" <html>
             <li>Day 5:  Group {schedule[4]}
             <li>Day 6:  Group {schedule[5]}
         </ul>
-        <i>{HWMR}</i><br>
+        <i>{HWMR}</i><br><br>
         If you need a physical copy of the upcoming HWMR book, see the <a href="{HWMR_LSM}">LSM Bookstore</a>.<br>
         For electronic versions, see the following links: <a href="{HWMR_kindle}">Kindle</a> | 
         <a href="{HWMR_google}">Google Play</a> | 
