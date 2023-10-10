@@ -3,7 +3,7 @@ email_list = {
 }
 
 full_email_list = {
-    "David Hanson": "davidhanson.c@gmail.com"
+    "David Hanson": "davidhanson.c@gmail.com",
     "Jessica Diaz-Hanson": "jessicapdiaz5@gmail.com",
     "David Cheng": "cth750513@gmail.com",
     "Grace Cheng": "hsiehgrace24@gmail.com",
@@ -28,12 +28,12 @@ full_email_list = {
     "Paul Bennet": "bennetpaul27@gmail.com",
     "Hiroko": "hiroko_bennett@att.net",
     "Judy Chen": "kitchenjhc@gmail.com",
-    "Marco": "azbboy520@yahoo.com",
     "Phoebe Zhang": "fengmingz85@gmail.com",
     "Efrain": "Efrainsan40@gmail.com",
 }
 
     # "Abram": "abram.liu@gmail.com",
+    # "Marco": "azbboy520@yahoo.com",
 
 if __name__ == "__main__":
 	for saint, email in full_email_list.items():

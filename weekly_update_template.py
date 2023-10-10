@@ -7,20 +7,24 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-We have the normal schedule this week.
+The December training signup is out on the table in the hall. The deadline for both the live and video training 
+is October 26th and the suggested donation for the live training is $205 and for the video training $130.
+<br><br>
+
+We are back to the normal schedule this week.
 
 <br><br>
-Enjoy Him!
+Jesus is Lord!
 """
 
-hwmr_week = 4  # update weekly (ascending)
-group_seed = 5 # update weekly (DEscending 6-->1)
+hwmr_week = 7  # update weekly (ascending)
+group_seed = 2 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 23)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 4)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 15)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 26)" #update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 26)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 6)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 17)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 27)" #update weekly (ascending)
 
 
 HWMR = f"""
@@ -74,12 +78,10 @@ message_html = f""" <html>
         <a href="https://drive.google.com/file/d/1byQPJ73KjIZqgHkgW_U-4MS6fbE5eRQU/view?usp=drive_link">this link</a>.
         <br><br>
         
-        Other useful links:
+        <h3>Other useful links:</h3>
         <ul>
           <li> See <a href="https://book.passkey.com/event/50571223/owner/3004/home">this link</a> to reserve a hotel with 
                 the LSM discount for the upcoming Dallas Thanksgiving conference.
-          <li> <a href="https://sites.google.com/view/elimsprings/english/events/gospel-trips-2023">Here</a> 
-                is the link for info and to sign up for the October Germany gospel trips. 
         </ul>
         </p>
 

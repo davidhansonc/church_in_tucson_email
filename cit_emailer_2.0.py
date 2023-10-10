@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 from weekly_update_template import subject, message_html, message_text
-from email_list import email_list
+# from email_list import email_list
 
 # Email configuration
 sender_email = 'office@churchintucson.org'
