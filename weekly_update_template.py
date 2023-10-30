@@ -7,34 +7,25 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-We have the normal schedule this week. Remember to sign up for the December training! <br><br>
-
-This week is our last week in the current morning revival book. Next week we will begin the book from 
-the July training. If you're not on the order list and need a physical or electronic copy, the link 
-is updated below.<br><br>
-
-Phoebe Zhang will be sending out email updates from her experience in the training. For those who would like 
-to receive the emails, you can sign up at this link: 
-https://docs.google.com/forms/d/1Ed-BmnlDra8cwegQTrMLWZGr0DqOkqsJxQ6ARn093nk/edit
+We have the normal schedule this week. 
 
 <br><br>
 Jesus is Lord!
 """
 
-hwmr_week = 8  # update weekly (ascending)
-group_seed = 1 # update weekly (DEscending 6-->1)
+hwmr_week = 2  # update weekly (ascending)
+group_seed = 5 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 27)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 7)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 18)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 28)" #update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 29)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 9)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 20)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 31)" #update weekly (ascending)
 
 
 HWMR = f"""
 HWMR: 
-Knowing, Experiencing, and Living the All-inclusive Christ for the Genuine Church Life
-Making Ourselves Ready for the Lord's Coming
+An Overview of the Central Burden and Present Truth of the Lord’s Recovery before His Appearing, vol. 1
 , week {hwmr_week}
 """
 HWMR_LSM = """
@@ -71,14 +62,13 @@ message_html = f""" <html>
             <li>Day 5:  Group {schedule[4]}
             <li>Day 6:  Group {schedule[5]}
         </ul>
-        <i>{HWMR}</i><br><br>
+        <i>{HWMR}</i><br>
         If you need a physical or electronic copy of the upcoming HWMR book, 
-		    see the <a href="{HWMR_LSM}">LSM Bookstore</a>.<br>
+		    see the <a href="{HWMR_LSM}">LSM Bookstore</a>.
         <br><br>
 
         For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
         <a href="https://drive.google.com/file/d/1byQPJ73KjIZqgHkgW_U-4MS6fbE5eRQU/view?usp=drive_link">this link</a>.
-        <br><br>
         </p>
 
     <h2>Meeting Schedule</h2>
