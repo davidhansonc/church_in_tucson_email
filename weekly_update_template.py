@@ -7,38 +7,38 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-We have the normal schedule this week. 
+We have the normal meeting schedule this week.
 
 <br><br>
-Jesus is Lord!
+Praise the Lord.
 """
 
-hwmr_week = 2  # update weekly (ascending)
-group_seed = 5 # update weekly (DEscending 6-->1)
+hwmr_week = 11 # update weekly (ascending)
+group_seed = 6 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 29)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 9)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 20)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 31)" #update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 38)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 17)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 28)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 38)" #update weekly (ascending)
 
 
 HWMR = f"""
 HWMR: 
-An Overview of the Central Burden and Present Truth of the Lord’s Recovery before His Appearing, vol. 1
+An Overview of the Central Burden and Present Truth of the Lord’s Recovery before His Appearing, vol. 2
 , week {hwmr_week}
 """
 HWMR_LSM = """
-https://www.livingstream.com/en/holy-word-for-morning-revival/99999261-hwmr-an-overview-of-the-central-burden-and-present-truth-of-the-lords-recovery-before-his-appearing-vol-1.html
+https://www.livingstream.com/en/holy-word-for-morning-revival/99999270-hwmr-an-overview-of-the-central-burden-and-present-truth-of-the-lords-recovery-before-his-appearing-vol-2.html
 """
 HWMR_apple = """
-https://books.apple.com/ec/book/the-holy-word-for-morning-revival-knowing/id6447316633
+https://books.apple.com/us/book/the-holy-word-for-morning-revival-an-overview/id6451326887
 """
 HWMR_google = """
-https://play.google.com/store/books/details/The_Holy_Word_for_Morning_Revival_Knowing_Experien?id=E6S3EAAAQBAJ&hl=en_US&gl=US&pli=1
+https://play.google.com/store/books/details/The_Holy_Word_for_Morning_Revival_An_Overview_of_t?id=9XzLEAAAQBAJ&hl=en_US&gl=US
 """
 HWMR_kindle = """
-https://www.amazon.com/Holy-Word-Morning-Revival-All-inclusive-ebook/dp/B0C1L7X257
+https://www.amazon.com/Holy-Word-Morning-Revival-Appearing-ebook/dp/B0CBWBPTHX
 """
 
 
@@ -76,9 +76,10 @@ message_html = f""" <html>
         Monday: 7:00 PM {monday_meeting} <br><br>
         Tuesday: 7:30 PM prayer meeting <br><br>
         Thursday: 7:30 PM {thursday_meeting} <br><br>
-        Friday: 7:30 PM {friday_meeting} <br><br>
-        Saturday: 7:30 PM {saturday_meeting} <br><br>
-        Lord's Day Morning: 10:00 AM - 12:00 PM Table and prophesying meetings<br><br>
+        Friday: 7:30 AM {friday_meeting} <br><br>
+        Saturday: 7:30 AM {saturday_meeting} <br><br>
+        Lord's Day Morning: 10:00 AM Table and prophesying meetings <br><br>
+        </p>
   </body>
 </html>
 """
