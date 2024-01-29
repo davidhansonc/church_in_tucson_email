@@ -32,6 +32,7 @@ full_email_list = {
     "Efrain": "Efrainsan40@gmail.com",
     "Jaime Gonzalez": "75irene4@gmail.com",
     "Nana": "margo.higgins@gmail.com",
+    "Gloria": "gloria.t.wang@gmail.com",
 }
 
     # "Abram": "abram.liu@gmail.com",

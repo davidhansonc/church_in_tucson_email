@@ -7,38 +7,36 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-We have the normal meeting schedule this week.
+We have the normal meeting schedule this week. We are beginning week 1 of the new Holy Word for 
+Morning Revival. See below.
 
 <br><br>
-Praise the Lord.
+Jesus is Lord!
 """
 
-hwmr_week = 11 # update weekly (ascending)
-group_seed = 6 # update weekly (DEscending 6-->1)
+hwmr_week = 1 # update weekly (ascending)
+group_seed = 4 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 38)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 17)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 28)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 38)" #update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 40)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 19)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 30)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 40)" #update weekly (ascending)
 
 
 HWMR = f"""
 HWMR: 
-An Overview of the Central Burden and Present Truth of the Lord’s Recovery before His Appearing, vol. 2
+Living and Serving according to God’s Economy concerning the Church
 , week {hwmr_week}
 """
 HWMR_LSM = """
-https://www.livingstream.com/en/holy-word-for-morning-revival/99999270-hwmr-an-overview-of-the-central-burden-and-present-truth-of-the-lords-recovery-before-his-appearing-vol-2.html
+https://www.livingstream.com/en/holy-word-for-morning-revival/99999283-hwmr-living-and-serving-according-to-gods-economy-concerning-the-church.html
 """
 HWMR_apple = """
-https://books.apple.com/us/book/the-holy-word-for-morning-revival-an-overview/id6451326887
 """
 HWMR_google = """
-https://play.google.com/store/books/details/The_Holy_Word_for_Morning_Revival_An_Overview_of_t?id=9XzLEAAAQBAJ&hl=en_US&gl=US
 """
 HWMR_kindle = """
-https://www.amazon.com/Holy-Word-Morning-Revival-Appearing-ebook/dp/B0CBWBPTHX
 """
 
 
