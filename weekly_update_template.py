@@ -7,21 +7,17 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-We have the normal meeting schedule this week. We are beginning week 1 of the new Holy Word for 
-Morning Revival. See below.
-
-<br><br>
-Jesus is Lord!
+We have the normal meeting schedule this week.
 """
 
-hwmr_week = 1 # update weekly (ascending)
-group_seed = 4 # update weekly (DEscending 6-->1)
+hwmr_week = 2 # update weekly (ascending)
+group_seed = 3 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 40)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 19)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 30)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 40)" #update weekly (ascending)
+monday_meeting = f"Life-study of First John (message 41)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 20)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 31)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 41)" #update weekly (ascending)
 
 
 HWMR = f"""
