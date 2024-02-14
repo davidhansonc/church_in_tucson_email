@@ -7,17 +7,22 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-We have the normal meeting schedule this week.
+We have the normal meeting schedule this week. Soon we will send out a link for saints 
+to sign up for time slots in our BFA distribution at the Tucson Festival of Books. More info 
+to come.
+
+<br><br>
+Jesus is Lord!
 """
 
-hwmr_week = 2 # update weekly (ascending)
-group_seed = 3 # update weekly (DEscending 6-->1)
+hwmr_week = 3 # update weekly (ascending)
+group_seed = 2 # update weekly (DEscending 6-->1)
 
 
-monday_meeting = f"Life-study of First John (message 41)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 20)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 31)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 41)" #update weekly (ascending)
+monday_meeting = f"Life-study of Second John (message 2)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 21)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 32)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 42)" #update weekly (ascending)
 
 
 HWMR = f"""
