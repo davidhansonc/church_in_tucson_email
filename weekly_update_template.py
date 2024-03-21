@@ -5,30 +5,24 @@ from tools.set_schedule import get_schedule, lords_date
 # update weekly
 subject = "Weekly Announcements"
 announcements = f"""
-Hi saints! <br><br>
+Hi saints, <br><br>
 
-We had a wonderful time at the book fair! Thank you, saints, for coming to help out. Handed out 
-all of our Bibles and we will be 
-fellowshipping about how to care for the ones who signed up for further contact.
-<br><br>
+We have the normal schedule this week.
 
-We have the normal meeting schedule this week. We are repeating week 6 of the Holy Word for Morning 
-Revival.
-
-Praise the Lord.
+Enjoy Him!
 """
 
-hwmr_week = 6 # update weekly (ascending)
-group_seed = 4 # update weekly (DEscending 6-->1)
+hwmr_week = 7 # update weekly (ascending)
+group_seed = 3 # update weekly (DEscending 6-->1)
 
 HWMR = "Living and Serving according to God’s Economy concerning the Church"
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999283-hwmr-living-and-serving-according-to-gods-economy-concerning-the-church.html"
 
 
-monday_meeting = f"Life-study of Jude (message 2)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 24)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 35)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 45)" #update weekly (ascending)
+monday_meeting = f"Life-study of Jude (message 3)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 25)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 36)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 46)" #update weekly (ascending)
 
 schedule = get_schedule(group_seed)
 
