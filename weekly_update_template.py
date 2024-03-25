@@ -7,22 +7,27 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
+A reminder that the Memorial Day conference in Bellevue, Washington is coming up. Make arrangements sooner than later!
+We are all encouraged to go and blend.
+<br><br>
+
 We have the normal schedule this week.
+<br><br>
 
 Enjoy Him!
 """
 
-hwmr_week = 7 # update weekly (ascending)
-group_seed = 3 # update weekly (DEscending 6-->1)
+hwmr_week = 8 # update weekly (ascending)
+group_seed = 2 # update weekly (DEscending 6-->1)
 
 HWMR = "Living and Serving according to God’s Economy concerning the Church"
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999283-hwmr-living-and-serving-according-to-gods-economy-concerning-the-church.html"
 
 
-monday_meeting = f"Life-study of Jude (message 3)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 25)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 36)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 46)" #update weekly (ascending)
+monday_meeting = f"Life-study of Jude (message 4)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 26)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 37)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 47)" #update weekly (ascending)
 
 schedule = get_schedule(group_seed)
 
@@ -43,8 +48,8 @@ message_html = f""" <html>
             <li>Day 5:  Group {schedule[4]}
             <li>Day 6:  Group {schedule[5]}
         </ul>
-        <i>{HWMR}</i><br>
-        If you need a physical or electronic copy of the upcoming HWMR book, 
+        <i>{HWMR}, week {hwmr_week}.</i><br>
+        If you need a physical or electronic copy of the upcoming HWMR book
 		    see the <a href="{HWMR_LSM}">LSM Bookstore</a>.
         <br><br>
 
