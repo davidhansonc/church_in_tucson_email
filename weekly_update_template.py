@@ -7,8 +7,12 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-A reminder that the Memorial Day conference in Bellevue, Washington is coming up. Make arrangements sooner than later!
-We are all encouraged to go and blend.
+The sign-up sheet for the semiannual training (in-person and video) is available on the table in the hall. Please sign up if 
+you are burdened to. 
+<br><br>
+This week is the last week of the current Holy Word for Morning Revival. Next week we will start week one of 
+"The Enjoyment of Christ and Our Growth in Life unto Maturity". The link below is updated if you need to order a physical or electronic 
+copy. 
 <br><br>
 
 We have the normal schedule this week.
@@ -17,17 +21,17 @@ We have the normal schedule this week.
 Enjoy Him!
 """
 
-hwmr_week = 8 # update weekly (ascending)
-group_seed = 2 # update weekly (DEscending 6-->1)
+hwmr_week = 9 # update weekly (ascending)
+group_seed = 1 # update weekly (DEscending 6-->1)
 
 HWMR = "Living and Serving according to God’s Economy concerning the Church"
-HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999283-hwmr-living-and-serving-according-to-gods-economy-concerning-the-church.html"
+HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999300-hwmr-the-enjoyment-of-christ-and-our-growth-in-life-unto-maturity.html"
 
 
-monday_meeting = f"Life-study of Jude (message 4)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 26)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 37)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 47)" #update weekly (ascending)
+monday_meeting = f"Life-study of Jude (message 5)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 27)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 38)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 48)" #update weekly (ascending)
 
 schedule = get_schedule(group_seed)
 
