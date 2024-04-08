@@ -8,7 +8,8 @@ from weekly_update_template import subject, message_html, message_text
 # Email configuration
 sender_email = 'office@churchintucson.org'
 sender_password = input('your password: ')
-receiver_email = 'office@churchintucson.org'
+# receiver_email = 'office@churchintucson.org'
+receiver_email = 'davidhanson.c@gmail.com'
 subject = 'Church in Tucson Weekly Update'
 html_message = message_html 
 
