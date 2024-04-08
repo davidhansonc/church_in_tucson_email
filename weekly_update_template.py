@@ -7,31 +7,26 @@ subject = "Weekly Announcements"
 announcements = f"""
 Hi saints, <br><br>
 
-The sign-up sheet for the semiannual training (in-person and video) is available on the table in the hall. Please sign up if 
-you are burdened to. 
+This coming weekend will be the Spring International Training for Elders and Responsible Ones (ITERO). There are 9 messages to listen to over 
+the weekend, so the brothers who are attending will be preoccupied. This may affect the meeting schedule, so later this week we will send out 
+clarification on meetings that may be canceled.
 <br><br>
-This week is the last week of the current Holy Word for Morning Revival. Next week we will start week one of 
-"The Enjoyment of Christ and Our Growth in Life unto Maturity". The link below is updated if you need to order a physical or electronic 
-copy. 
-<br><br>
-
-We have the normal schedule this week.
-<br><br>
+A reminder that we are starting week 1 of the new morning revival this week! If you still need a copy, you can get one at the link below. 
 
 Enjoy Him!
 """
 
-hwmr_week = 9 # update weekly (ascending)
-group_seed = 1 # update weekly (DEscending 6-->1)
+hwmr_week = 1 # update weekly (ascending)
+group_seed = 6 # update weekly (DEscending 6-->1)
 
-HWMR = "Living and Serving according to God’s Economy concerning the Church"
+HWMR = "The Enjoyment of Christ and Our Growth in Life unto Maturity"
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999300-hwmr-the-enjoyment-of-christ-and-our-growth-in-life-unto-maturity.html"
 
 
-monday_meeting = f"Life-study of Jude (message 5)" # update weekly (ascending)
-thursday_meeting = f"Life-study of First Peter (message 27)" # update weekly (ascending)
-friday_meeting = f"Life-study of Hebrews (message 38)" # update weekly (ascending)    
-saturday_meeting = f"Life-study of John (message 48)" #update weekly (ascending)
+monday_meeting = f"Life-study of First Thessalonians (message 1)" # update weekly (ascending)
+thursday_meeting = f"Life-study of First Peter (message 28)" # update weekly (ascending)
+friday_meeting = f"Life-study of Hebrews (message 39)" # update weekly (ascending)    
+saturday_meeting = f"Life-study of John (message 49)" #update weekly (ascending)
 
 schedule = get_schedule(group_seed)
 
@@ -53,7 +48,7 @@ message_html = f""" <html>
             <li>Day 6:  Group {schedule[5]}
         </ul>
         <i>{HWMR}, week {hwmr_week}.</i><br>
-        If you need a physical or electronic copy of the upcoming HWMR book
+        If still you need a physical or electronic copy of the HWMR book
 		    see the <a href="{HWMR_LSM}">LSM Bookstore</a>.
         <br><br>
 
