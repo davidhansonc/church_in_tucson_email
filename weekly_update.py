@@ -105,10 +105,6 @@ message_html = f"""<!DOCTYPE html>
 </html>
 """
 
-message_text = """
-If you see this message, please reply and ask for a direct email with the schedule and announcements.
-"""
-
 if __name__ == "__main__":
 	# Define the filename for the output HTML file
 	filename = "./email.html"

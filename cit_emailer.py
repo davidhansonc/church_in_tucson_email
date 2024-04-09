@@ -2,7 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-from OLD.weekly_update_template import subject, message_html, message_text
+from weekly_update import subject, message_html
 # from email_list import email_list
 
 # Email configuration
