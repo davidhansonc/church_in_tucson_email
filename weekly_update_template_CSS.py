@@ -74,6 +74,12 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3;">Next Lord's Day ({lords_day_date})</h2>
         
+        <p><i>{HWMR}, week {hwmr_week}.</i><br>
+        If you still need a physical or electronic copy of the HWMR book, see the <a href="{HWMR_LSM}" style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
+
+        <p>For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
+        <a href="https://drive.google.com/file/d/1byQPJ73KjIZqgHkgW_U-4MS6fbE5eRQU/view?usp=drive_link" style="color: #0056b3; text-decoration: none;">this link</a>.</p>
+        
         <h3 style="color: #0056b3;">Prophesying Schedule:</h3>
         <ul style="list-style-type: none; padding: 0;">
             {prophesying_formatted}
@@ -84,12 +90,6 @@ message_html = f"""<!DOCTYPE html>
         
         <h3 style="color: #0056b3;">Ushering Schedule:</h3>
         <p style="margin-bottom: 20px;">{ushering_formatted}</p>
-        
-        <p><i>{HWMR}, week {hwmr_week}.</i><br>
-        If you still need a physical or electronic copy of the HWMR book, see the <a href="{HWMR_LSM}" style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
-
-        <p>For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
-        <a href="https://drive.google.com/file/d/1byQPJ73KjIZqgHkgW_U-4MS6fbE5eRQU/view?usp=drive_link" style="color: #0056b3; text-decoration: none;">this link</a>.</p>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
