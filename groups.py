@@ -26,3 +26,9 @@ ushering_groups = [
     "Isaac, Craig",
     "Craig/Sam",
 ]
+
+
+if __name__ == "__main__":
+    print(f"prophesying groups: {prophesying_groups}")
+    print(f"cleaning groups: {cleaning_groups}")
+    print(f"ushering groups: {ushering_groups}")

@@ -1,10 +1,8 @@
-from datetime import datetime, timedelta
+from datetime import datetime
 from tools.set_schedule import lords_date
 import groups
-from scheduler import get_prophesying_group_order
+from scheduler import get_prophesying_group_order, get_cleaning_group_order, get_ushering_order
 
-
-'''UPDATE THE FOLLOWING'''
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
 hwmr_week = 1  # update weekly
@@ -17,7 +15,6 @@ thursday_meeting = "Life-study of First Peter (message 28)"
 friday_meeting = "Life-study of Hebrews (message 39)"
 saturday_meeting = "Life-study of John (message 49)"
 
-# Announcements content
 announcements = """
 Hi saints, <br><br>
 
@@ -33,8 +30,10 @@ Enjoy Him!
 current_date = datetime.today()
 lords_day_date = lords_date(send_date=current_date)
 prophesying_order = get_prophesying_group_order(groups.prophesying_groups, current_date)
+cleaning_order = get_cleaning_group_order(groups.cleaning_groups, current_date)
+ushering_order = get_ushering_order(groups.ushering_groups, current_date)
 
-# HTML message
+# Update the HTML message to include cleaning and ushering schedules
 message_html = f"""<html>
 <head></head>
 <body>
@@ -43,13 +42,14 @@ message_html = f"""<html>
     <h2>Next Lord's Day ({lords_day_date})</h2>
     <h3>Prophesying Schedule:</h3>
     <ul>
-        <li>Day 1: {prophesying_order[0]}
-        <li>Day 2: {prophesying_order[1]}
-        <li>Day 3: {prophesying_order[2]}
-        <li>Day 4: {prophesying_order[3]}
-        <li>Day 5: {prophesying_order[4]}
-        <li>Day 6: {prophesying_order[5]}
+        {''.join(f'<li>{group}</li>' for group in prophesying_order)}
     </ul>
+    <h3>Cleaning Team Schedule:</h3>
+    <ul>
+        {''.join(f'<li>{team}</li>' for team in cleaning_order)}
+    </ul>
+    <h3>Ushering Schedule:</h3>
+    <p>This week's ushers: {ushering_order}</p>
     <i>{HWMR}, week {hwmr_week}.</i><br>
     If you still need a physical or electronic copy of the HWMR book, see the <a href="{HWMR_LSM}">LSM Bookstore</a>.
     <br><br>
@@ -71,7 +71,6 @@ message_html = f"""<html>
 </html>
 """
 
-# Plain text message for email clients that do not support HTML
 message_text = """
 If you see this message, please reply and ask for a direct email with the schedule and announcements.
 """
