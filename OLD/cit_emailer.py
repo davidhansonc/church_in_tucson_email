@@ -1,41 +1,41 @@
-import email, smtplib, ssl
-
-from email import encoders
-from email.mime.base import MIMEBase
-from email.mime.multipart import MIMEMultipart
+import smtplib
 from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
-from OLD.weekly_update_template import subject, message_html, message_text
-from email_list import email_list
+from weekly_update import subject, message_html
+# from email_list import email_list
 
+# Email configuration
+sender_email = 'office@churchintucson.org'
+sender_password = input('your password: ')
+# receiver_email = 'office@churchintucson.org'
+receiver_email = 'davidhanson.c@gmail.com'
+subject = 'Church in Tucson Weekly Update'
+html_message = message_html 
 
-if __name__ == "__main__":
-    sender = "office@churchintucson.org"
-    church_email_list = list(email_list.values())
-    password = input("Password: ")
+# Create a MIMEText object for the HTML content
+msg = MIMEMultipart()
+msg['From'] = sender_email
+msg['To'] = receiver_email
+msg['Subject'] = subject
 
-    message = MIMEMultipart("alternative")
-    message["Subject"] = subject
-    message["From"] = sender
-    message["To"] = ", ".join(church_email_list)
-    # message["Bcc"] = receiver_email  # Recommended for mass emails
+# Attach the HTML message to the email with 'html' content type
+msg.attach(MIMEText(html_message, 'html'))
 
-    # Turn these into plain/html MIMEText objects
-    part1 = MIMEText(message_text, "plain")
-    part2 = MIMEText(message_html, "html")
+# Establish a connection to the GoDaddy SMTP server
+smtp_server = 'smtpout.secureserver.net'
+smtp_port = 587  # SMTP port for GoDaddy
 
-    # Add HTML/plain-text parts to MIMEMultipart message
-    # The email client will try to render the last part first
-    message.attach(part1)
-    message.attach(part2)
+try:
+    server = smtplib.SMTP(smtp_server, smtp_port)
+    server.starttls()  # Secure the connection
+    server.login(sender_email, sender_password)  # Log in to your email account
 
-    # Create secure connection with server and send email
-    context = ssl.create_default_context()
-    with smtplib.SMTP_SSL("smtpout.secureserver.net", 465, context=context) as server: #port 465
-        try:
-            server.login(sender, password)
-            server.sendmail(
-                sender, church_email_list, message.as_string()
-            )
-        except:
-            raise Exception("Wrong password, try again")
+    # Send the email
+    server.sendmail(sender_email, receiver_email, msg.as_string())
+
+    # Close the SMTP server connection
+    server.quit()
+    print('HTML Email sent successfully!')
+except Exception as e:
+    print(f'Error: {e}')

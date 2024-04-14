@@ -1,41 +1,44 @@
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import configparser
 
-from weekly_update import subject, message_html
-# from email_list import email_list
+# Load configuration
+config = configparser.ConfigParser()
+config.read('config.ini')
 
-# Email configuration
-sender_email = 'office@churchintucson.org'
-sender_password = input('your password: ')
-# receiver_email = 'office@churchintucson.org'
-receiver_email = 'davidhanson.c@gmail.com'
-subject = 'Church in Tucson Weekly Update'
-html_message = message_html 
+# SMTP settings
+smtp_host = config['SMTP']['host']
+smtp_port = int(config['SMTP']['port'])
+smtp_email = config['SMTP']['email']
+smtp_password = config['SMTP']['password']
 
-# Create a MIMEText object for the HTML content
-msg = MIMEMultipart()
-msg['From'] = sender_email
-msg['To'] = receiver_email
-msg['Subject'] = subject
+# Email settings
+email_subject = config['EMAIL']['subject']
+html_file_path = config['EMAIL']['html_file']
+to_emails = config['RECIPIENTS']['emails'].split(',')  # Split the string into a list of emails
 
-# Attach the HTML message to the email with 'html' content type
-msg.attach(MIMEText(html_message, 'html'))
+# Create the SMTP session
+smtp = smtplib.SMTP(smtp_host, smtp_port)
+smtp.starttls()
+smtp.login(smtp_email, smtp_password)
 
-# Establish a connection to the GoDaddy SMTP server
-smtp_server = 'smtpout.secureserver.net'
-smtp_port = 587  # SMTP port for GoDaddy
+# Read HTML content from the configured file
+with open(html_file_path, 'r') as file:
+    html_content = file.read()
 
-try:
-    server = smtplib.SMTP(smtp_server, smtp_port)
-    server.starttls()  # Secure the connection
-    server.login(sender_email, sender_password)  # Log in to your email account
+# Create MIME structure
+message = MIMEMultipart('alternative')
+message['From'] = smtp_email
+message['Subject'] = email_subject
 
-    # Send the email
-    server.sendmail(sender_email, receiver_email, msg.as_string())
+# Attach the HTML content
+message.attach(MIMEText(html_content, 'html'))
 
-    # Close the SMTP server connection
-    server.quit()
-    print('HTML Email sent successfully!')
-except Exception as e:
-    print(f'Error: {e}')
+# Send the email to each recipient
+for to_email in to_emails:
+    message['To'] = to_email
+    smtp.sendmail(smtp_email, to_email, message.as_string())
+
+# Close the SMTP session
+smtp.quit()
