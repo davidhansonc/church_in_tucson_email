@@ -1,3 +1,5 @@
+# Config
+*.ini
 
 # Python
 __pycache__/
