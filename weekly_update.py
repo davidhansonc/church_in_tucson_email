@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order, get
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 2  # update weekly
+hwmr_week = 3  # update weekly
 HWMR = "The Enjoyment of Christ and Our Growth in Life unto Maturity"
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999300-hwmr-the-enjoyment-of-christ-and-our-growth-in-life-unto-maturity.html"
 
 # Meeting topics to be updated weekly
-monday_meeting = "Life-study of First Thessalonians (message 1)"
+monday_meeting = "Life-study of First Thessalonians (message 2)"
 thursday_meeting = "Life-study of First Peter (message 28)"
 friday_meeting = "Life-study of Hebrews (message 39)"
 saturday_meeting = "Life-study of John (message 49)"
