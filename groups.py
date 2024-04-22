@@ -1,5 +1,3 @@
-from datetime import datetime, timedelta
-
 # Define the groups
 prophesying_groups = {
     "Group 1": ["Jay", "Pauline", "DC"],

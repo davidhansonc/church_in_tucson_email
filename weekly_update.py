@@ -5,20 +5,26 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order, get
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 2  # update weekly
+hwmr_week = 3  # update weekly
 HWMR = "The Enjoyment of Christ and Our Growth in Life unto Maturity"
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999300-hwmr-the-enjoyment-of-christ-and-our-growth-in-life-unto-maturity.html"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians (message 2)"
-thursday_meeting = "Life-study of First Peter (message 28)"
-friday_meeting = "Life-study of Hebrews (message 39)"
-saturday_meeting = "Life-study of John (message 49)"
+thursday_meeting = "Life-study of First Peter (message 29)"
+friday_meeting = "Life-study of Hebrews (message 40)"
+saturday_meeting = "Life-study of John (message 50)"
 
 announcements = """
 Hi saints, <br><br>
 
-The meeting Monday night is cancelled due to ITERO and after that we will resume the normal meeting schedule. See below for info.
+For any saints who would like to attend the summer semiannual training in person or over video and have not yet signed up, 
+please do so as soon as you can using the sign-up sheets in the hall. 
+If you are going in person, make sure to arrange hospitality and a study group as soon as you can. If you need any help, please 
+fellowship.
+<br><br>
+Next week on Lord's day after the meeting we will stay after for lunch and then to clean/paint the basket ball court together. 
+Food will provided by the church. Bring a hat, sunscreen, and work clothes.
 <br><br>
 
 Enjoy Him!
@@ -28,7 +34,8 @@ current_date = datetime.today()
 lords_day_date = lords_date(send_date=current_date).strftime('%Y-%m-%d')
 prophesying_order = get_prophesying_group_order(groups.prophesying_groups, current_date)
 cleaning_team = get_cleaning_group_order(groups.cleaning_groups, current_date)
-ushers = get_ushering_order(groups.ushering_groups, current_date)
+# ushers = get_ushering_order(groups.ushering_groups, current_date)
+ushers = "Isaac/DC"
 
 # Format the group orders for display
 def format_group_order(group_order):
@@ -80,7 +87,7 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
-            Monday: No church meeting <br>
+            Monday: {monday_meeting} <br>
             Tuesday: 7:30 PM prayer meeting <br>
             Thursday: {thursday_meeting} <br>
             Friday: {friday_meeting} <br>

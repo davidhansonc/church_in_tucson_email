@@ -12,7 +12,7 @@ def get_prophesying_group_order(groups, current_date):
 
     weeks_since_start = (next_sunday - start_date).days // 7
     # Determine the shift for the group order
-    shift = -weeks_since_start % len(groups)
+    shift = weeks_since_start % len(groups)
     
     # Create a new ordered list of group names based on the shift
     ordered_group_names = list(groups.keys())[shift:] + list(groups.keys())[:shift]
@@ -33,7 +33,7 @@ def get_cleaning_group_order(groups, current_date):
 
     weeks_since_start = (next_sunday - date_seed).days // 7
     # Determine the shift for the group order, adapted for the number of cleaning groups
-    shift = -weeks_since_start % len(groups)
+    shift = weeks_since_start % len(groups)
     
     # Generate the group order based on the shift
     group_order = list(groups.keys())
@@ -49,7 +49,7 @@ def get_cleaning_group_order(groups, current_date):
 
 
 def get_ushering_order(groups, current_date):
-    date_seed = datetime(2024, 3, 17)
+    date_seed = datetime(2024, 1, 1)
     # Calculate the next Sunday or use a week from today if it's already Sunday
     if current_date.weekday() != 6:
         next_sunday = current_date + timedelta(days=(6 - current_date.weekday()))
@@ -58,7 +58,7 @@ def get_ushering_order(groups, current_date):
 
     weeks_since_start = (next_sunday - date_seed).days // 7
     # Determine the shift for the group order, adapted for the number of cleaning groups
-    shift = -weeks_since_start % len(groups)
+    shift = weeks_since_start % len(groups)
     
     # Generate the group order based on the shift
     ordered_group_order = groups[shift:] + groups[:shift]
