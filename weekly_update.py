@@ -24,13 +24,14 @@ If you are going in person, make sure to arrange hospitality and a study group a
 fellowship.
 <br><br>
 Next week on Lord's day after the meeting we will stay after for lunch and then to clean/paint the basket ball court together. 
-Food will provided by the church. Bring a hat, sunscreen, and work clothes.
+Food will provided by the church. Bring a hat, sunscreen, and work clothes. It is ok to wear your work clothes to the meeting 
+if you'd like.
 <br><br>
 
 Enjoy Him!
 """.format(hwmr_week=hwmr_week)
 
-current_date = datetime.today()
+current_date = datetime.today() 
 lords_day_date = lords_date(send_date=current_date).strftime('%Y-%m-%d')
 prophesying_order = get_prophesying_group_order(groups.prophesying_groups, current_date)
 cleaning_team = get_cleaning_group_order(groups.cleaning_groups, current_date)
