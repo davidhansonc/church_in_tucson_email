@@ -88,11 +88,11 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
-            Monday: {monday_meeting} <br>
+            Monday: 7:00 PM {monday_meeting} <br>
             Tuesday: 7:30 PM prayer meeting <br>
-            Thursday: {thursday_meeting} <br>
-            Friday: {friday_meeting} <br>
-            Saturday: {saturday_meeting} <br>
+            Thursday: 7:30 PM {thursday_meeting} <br>
+            Friday: 7:30 PM {friday_meeting} <br>
+            Saturday: 7:30 PM {saturday_meeting} <br>
             Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
         </p>
     </div>

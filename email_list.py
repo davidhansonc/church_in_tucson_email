@@ -34,10 +34,10 @@ full_email_list = {
     "Nana": "margo.higgins@gmail.com",
     "Gloria": "gloria.t.wang@gmail.com",
     "Bryan Lin": "brlin@arizona.edu",
+    "Abram": "abram.liu@gmail.com",
+    "Marco": "azbboy520@yahoo.com",
 }
 
-    # "Abram": "abram.liu@gmail.com",
-    # "Marco": "azbboy520@yahoo.com",
 
 if __name__ == "__main__":
 	for saint, email in full_email_list.items():
