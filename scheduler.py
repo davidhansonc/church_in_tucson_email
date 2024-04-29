@@ -12,7 +12,7 @@ def get_prophesying_group_order(groups, current_date):
 
     weeks_since_start = (next_sunday - start_date).days // 7
     # Determine the shift for the group order
-    shift = weeks_since_start % len(groups)
+    shift = -weeks_since_start % len(groups)
     
     # Create a new ordered list of group names based on the shift
     ordered_group_names = list(groups.keys())[shift:] + list(groups.keys())[:shift]
@@ -71,7 +71,8 @@ def get_ushering_order(groups, current_date):
 
 
 if __name__ == "__main__":
-    current_date = datetime.now()
+    # current_date = datetime.now()
+    current_date = datetime(2025, 2, 3)
     print("Prophesying Groups:", get_prophesying_group_order(groups.prophesying_groups, current_date))
     print("Cleaning Groups:", get_cleaning_group_order(groups.cleaning_groups, current_date))
     # print("Ushering Order:", get_ushering_order(groups.ushering_groups, current_date))
