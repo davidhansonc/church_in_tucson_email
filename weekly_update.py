@@ -10,22 +10,15 @@ HWMR = "The Enjoyment of Christ and Our Growth in Life unto Maturity"
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999300-hwmr-the-enjoyment-of-christ-and-our-growth-in-life-unto-maturity.html"
 
 # Meeting topics to be updated weekly
-monday_meeting = "Life-study of First Thessalonians (message 2)"
-thursday_meeting = "Life-study of First Peter (message 29)"
-friday_meeting = "Life-study of Hebrews (message 40)"
-saturday_meeting = "Life-study of John (message 50)"
+monday_meeting = "Life-study of First Thessalonians (message 3)"
+thursday_meeting = "Life-study of First Peter (message 30)"
+friday_meeting = "Life-study of Hebrews (message 41)"
+saturday_meeting = "Life-study of John (message 51)"
 
 announcements = """
 Hi saints, <br><br>
 
-For any saints who would like to attend the summer semiannual training in person or over video and have not yet signed up, 
-please do so as soon as you can using the sign-up sheets in the hall. 
-If you are going in person, make sure to arrange hospitality and a study group as soon as you can. If you need any help, please 
-fellowship.
-<br><br>
-Next week on Lord's day after the meeting we will stay after for lunch and then to clean/paint the basket ball court together. 
-Food will provided by the church. Bring a hat, sunscreen, and work clothes. It is ok to wear your work clothes to the meeting 
-if you'd like.
+No announcements this week. We have the normal meeting schedule.
 <br><br>
 
 Enjoy Him!
@@ -36,7 +29,7 @@ lords_day_date = lords_date(send_date=current_date).strftime('%Y-%m-%d')
 prophesying_order = get_prophesying_group_order(groups.prophesying_groups, current_date)
 cleaning_team = get_cleaning_group_order(groups.cleaning_groups, current_date)
 # ushers = get_ushering_order(groups.ushering_groups, current_date)
-ushers = "Isaac/DC"
+ushers = "Craig/DC"
 
 # Format the group orders for display
 def format_group_order(group_order):

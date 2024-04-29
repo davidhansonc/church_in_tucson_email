@@ -74,4 +74,4 @@ if __name__ == "__main__":
     current_date = datetime.now()
     print("Prophesying Groups:", get_prophesying_group_order(groups.prophesying_groups, current_date))
     print("Cleaning Groups:", get_cleaning_group_order(groups.cleaning_groups, current_date))
-    print("Ushering Order:", get_ushering_order(groups.ushering_groups, current_date))
+    # print("Ushering Order:", get_ushering_order(groups.ushering_groups, current_date))
