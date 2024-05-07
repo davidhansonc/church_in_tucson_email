@@ -1,27 +1,28 @@
 from datetime import datetime
 from tools.set_schedule import lords_date
 import groups
-from scheduler import get_prophesying_group_order, get_cleaning_group_order, get_ushering_order
+from scheduler import get_prophesying_group_order, get_cleaning_group_order#, get_ushering_order
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 3  # update weekly
+hwmr_week = 5  # update weekly
 HWMR = "The Enjoyment of Christ and Our Growth in Life unto Maturity"
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999300-hwmr-the-enjoyment-of-christ-and-our-growth-in-life-unto-maturity.html"
+ushers = "Isaac/Craig"
 
 # Meeting topics to be updated weekly
-monday_meeting = "Life-study of First Thessalonians (message 3)"
-thursday_meeting = "Life-study of First Peter (message 30)"
-friday_meeting = "Life-study of Hebrews (message 41)"
-saturday_meeting = "Life-study of John (message 51)"
+monday_meeting = "Life-study of First Thessalonians (message 4)"
+thursday_meeting = "Life-study of First Peter (message 31)"
+friday_meeting = "Life-study of Hebrews (message 42)"
+saturday_meeting = "Life-study of First Timothy (message 1)"
 
 announcements = """
 Hi saints, <br><br>
 
-No announcements this week. We have the normal meeting schedule.
+We have no special announcements this week. We have the normal meeting schedule.
 <br><br>
 
-Enjoy Him!
+Enjoy Christ!
 """.format(hwmr_week=hwmr_week)
 
 current_date = datetime.today() 
@@ -29,7 +30,6 @@ lords_day_date = lords_date(send_date=current_date).strftime('%Y-%m-%d')
 prophesying_order = get_prophesying_group_order(groups.prophesying_groups, current_date)
 cleaning_team = get_cleaning_group_order(groups.cleaning_groups, current_date)
 # ushers = get_ushering_order(groups.ushering_groups, current_date)
-ushers = "Craig/DC"
 
 # Format the group orders for display
 def format_group_order(group_order):
