@@ -5,26 +5,30 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 6  # update weekly
-HWMR = "The Enjoyment of Christ and Our Growth in Life unto Maturity"
+hwmr_week = 1  # update weekly
+HWMR = """Fighting the Good Fight, Finishing the Course, Keeping the Faith, and Loving the Lord's Appearing in Order to 
+Receive the Reward of Christ as the Crown of Righteousness"""
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999324-hwmr-fighting-the-good-fight-finishing-the-course-keeping-the-faith-and-loving-the-lords-appearing-in-order-to-receive.html"
-ushers = "Craig/Sam"
+ushers = "Isaac/David"
 
 # Meeting topics to be updated weekly
-monday_meeting = "Life-study of First Thessalonians (message 5)"
-thursday_meeting = "Life-study of First Peter (message 32)"
-friday_meeting = "Life-study of Hebrews (message 43)"
-saturday_meeting = "Life-study of First Timothy (message 2)"
+monday_meeting = "Life-study of First Thessalonians (message 6)"
+thursday_meeting = "Life-study of First Peter (message 33)"
+friday_meeting = "Life-study of Hebrews (message 44)"
+saturday_meeting = "Life-study of First Timothy (message 3)"
 
 announcements = """
 Hi saints, <br><br>
 
-This week is the last for the current Holy Word for Morning Revival book. Next week we start the book entitled "Fighting the Good Fight, 
-Finishing the Course, Keeping the Faith, and Loving the Lord's Appearing in Order to Receive the Reward of Christ as the Crown of 
-Righteousness". The link below is updated for those who need to buy a copy.
+This week we have the normal schedule through Thursday. On Friday through Lord's day we will be watching the Memorial Day Conference 
+together in the hall. See the updated schedule below for all of the church and conference meetings. 
 <br><br>
 
-Jesus is Lord.
+We are also starting the new Holy Word for Morning Revival Book. There will be no prophesying 
+meeting this Lord's day, so we will take week one this week and next.
+<br><br>
+
+Praise the Lord!
 """.format(hwmr_week=hwmr_week)
 
 current_date = datetime.today() 
@@ -65,7 +69,7 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3;">Next Lord's Day ({lords_day_date})</h2>
         
         <p><i>{HWMR}, week {hwmr_week}.</i><br>
-        To order a physical or electronic copy of the upcoming HWMR book, see the <a href="{HWMR_LSM}" style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
+        To order a physical or electronic copy of the HWMR book, see the <a href="{HWMR_LSM}" style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
 
         <p>For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
         <a href="https://drive.google.com/file/d/15seb5EfFD93_XuVOP4qi5fTzn4wLio8V/view?usp=drive_link" style="color: #0056b3; text-decoration: none;">this link</a>.</p>
@@ -86,9 +90,12 @@ message_html = f"""<!DOCTYPE html>
             Monday: 7:00 PM {monday_meeting} <br>
             Tuesday: 7:30 PM prayer meeting <br>
             Thursday: 7:30 PM {thursday_meeting} <br>
-            Friday: 7:30 PM {friday_meeting} <br>
-            Saturday: 7:30 PM {saturday_meeting} <br>
-            Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
+            Friday: Message 1 at 7:25 PM <br>
+            Saturday: Message 2 at 9:55 AM <br>
+            Saturday: Message 3 at 7:25 PM <br>
+            Lord's Day Morning: 9:25 AM Table meeting and Message 4 at 9:55 AM <br>
+            Lord's Day Evening: Message 5 at 7:25 PM <br>
+            Monday: Message 6 at 9:55 AM
         </p>
     </div>
 </body>
