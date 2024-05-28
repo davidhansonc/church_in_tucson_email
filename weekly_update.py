@@ -9,10 +9,10 @@ hwmr_week = 1  # update weekly
 HWMR = """Fighting the Good Fight, Finishing the Course, Keeping the Faith, and Loving the Lord's Appearing in Order to 
 Receive the Reward of Christ as the Crown of Righteousness"""
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999324-hwmr-fighting-the-good-fight-finishing-the-course-keeping-the-faith-and-loving-the-lords-appearing-in-order-to-receive.html"
-ushers = "Isaac/David"
+ushers = "David/Jaime"
 
 # Meeting topics to be updated weekly
-monday_meeting = "Life-study of First Thessalonians (message 6)"
+monday_meeting = "Life-study of First Thessalonians (message 7)"
 thursday_meeting = "Life-study of First Peter (message 33)"
 friday_meeting = "Life-study of Hebrews (message 44)"
 saturday_meeting = "Life-study of First Timothy (message 3)"
@@ -20,15 +20,8 @@ saturday_meeting = "Life-study of First Timothy (message 3)"
 announcements = """
 Hi saints, <br><br>
 
-This week we have the normal schedule through Thursday. On Friday through Lord's day we will be watching the Memorial Day Conference 
-together in the hall. See the updated schedule below for all of the church and conference meetings. 
-<br><br>
-
-We are also starting the new Holy Word for Morning Revival Book. There will be no prophesying 
-meeting this Lord's day, so we will take week one this week and next.
-<br><br>
-
-Praise the Lord!
+Praise the Lord for the conference! We hope you all enjoyed it. This week we are resuming the normal meeting schedule and we 
+are repeating week 1 of the Holy Word for Morning Revival Book.
 """.format(hwmr_week=hwmr_week)
 
 current_date = datetime.today() 
@@ -87,15 +80,11 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
-            Monday: 7:00 PM {monday_meeting} <br>
             Tuesday: 7:30 PM prayer meeting <br>
             Thursday: 7:30 PM {thursday_meeting} <br>
-            Friday: Message 1 at 7:25 PM <br>
-            Saturday: Message 2 at 9:55 AM <br>
-            Saturday: Message 3 at 7:25 PM <br>
-            Lord's Day Morning: 9:25 AM Table meeting and Message 4 at 9:55 AM <br>
-            Lord's Day Evening: Message 5 at 7:25 PM <br>
-            Monday: Message 6 at 9:55 AM
+            Friday: 7:30 PM {friday_meeting} <br>
+            Saturday: 7:30 PM {saturday_meeting} <br>
+            Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting
         </p>
     </div>
 </body>
