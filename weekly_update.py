@@ -5,23 +5,27 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 1  # update weekly
+hwmr_week = 5  # update weekly
 HWMR = """Fighting the Good Fight, Finishing the Course, Keeping the Faith, and Loving the Lord's Appearing in Order to 
 Receive the Reward of Christ as the Crown of Righteousness"""
-HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999324-hwmr-fighting-the-good-fight-finishing-the-course-keeping-the-faith-and-loving-the-lords-appearing-in-order-to-receive.html"
-ushers = "David/Jaime"
+HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999254-hwmr-knowing-experiencing-and-enjoying-christ-as-revealed-in-philippians.html"
+ushers = "Craig/Jaime"
 
 # Meeting topics to be updated weekly
-monday_meeting = "Life-study of First Thessalonians (message 7)"
-thursday_meeting = "Life-study of First Peter (message 33)"
-friday_meeting = "Life-study of Hebrews (message 44)"
-saturday_meeting = "Life-study of First Timothy (message 3)"
+monday_meeting = "Life-study of First Thessalonians (message 9)"
+thursday_meeting = "Life-study of Second Peter (message 2)"
+friday_meeting = "Life-study of Hebrews (message 47)"
+saturday_meeting = "Life-study of First Timothy (message 7)"
 
 announcements = """
 Hi saints, <br><br>
 
-Praise the Lord for the conference! We hope you all enjoyed it. This week we are resuming the normal meeting schedule and we 
-are repeating week 1 of the Holy Word for Morning Revival Book.
+This is the last week of the current Holy Word for Morning Revival book before we begin the next one from the 2023 Memorial Day 
+Conference. The title is "Knowing, Experiencing, and Enjoying Christ as Revealed in Philippians". See the link below if you need to 
+order a physical or electronic copy.
+<br><br>
+
+Praise the Lord!
 """.format(hwmr_week=hwmr_week)
 
 current_date = datetime.today() 
@@ -62,7 +66,7 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3;">Next Lord's Day ({lords_day_date})</h2>
         
         <p><i>{HWMR}, week {hwmr_week}.</i><br>
-        To order a physical or electronic copy of the HWMR book, see the <a href="{HWMR_LSM}" style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
+        To order a physical or electronic copy of the upcoming HWMR book, see the <a href="{HWMR_LSM}" style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
 
         <p>For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
         <a href="https://drive.google.com/file/d/15seb5EfFD93_XuVOP4qi5fTzn4wLio8V/view?usp=drive_link" style="color: #0056b3; text-decoration: none;">this link</a>.</p>
@@ -80,6 +84,7 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
+            Monday: 7:30 PM {monday_meeting} <br>
             Tuesday: 7:30 PM prayer meeting <br>
             Thursday: 7:30 PM {thursday_meeting} <br>
             Friday: 7:30 PM {friday_meeting} <br>
