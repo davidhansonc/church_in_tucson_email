@@ -5,27 +5,26 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 5  # update weekly
-HWMR = """Fighting the Good Fight, Finishing the Course, Keeping the Faith, and Loving the Lord's Appearing in Order to 
-Receive the Reward of Christ as the Crown of Righteousness"""
+hwmr_week = 1  # update weekly
+HWMR = """Knowing, Experiencing, and Enjoying Christ as Revealed in Philippians"""
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999254-hwmr-knowing-experiencing-and-enjoying-christ-as-revealed-in-philippians.html"
-ushers = "Craig/Jaime"
+ushers = "David/Jaime"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians (message 9)"
 thursday_meeting = "Life-study of Second Peter (message 2)"
-friday_meeting = "Life-study of Hebrews (message 47)"
-saturday_meeting = "Life-study of First Timothy (message 7)"
+friday_meeting = "Life-study of Hebrews (message 48)"
+saturday_meeting = "Life-study of First Timothy (message 8)"
 
 announcements = """
 Hi saints, <br><br>
 
-This is the last week of the current Holy Word for Morning Revival book before we begin the next one from the 2023 Memorial Day 
-Conference. The title is "Knowing, Experiencing, and Enjoying Christ as Revealed in Philippians". See the link below if you need to 
-order a physical or electronic copy.
+This week we will repeat week 1 of the new Holy Word for Morning Revival. The normal church 
+meetings during are canceled this week due to the remainder of the video training. We will meet 
+next Lord's day for the Table and prophesying meetings. 
 <br><br>
 
-Praise the Lord!
+In Him.
 """.format(hwmr_week=hwmr_week)
 
 current_date = datetime.today() 
@@ -66,7 +65,7 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3;">Next Lord's Day ({lords_day_date})</h2>
         
         <p><i>{HWMR}, week {hwmr_week}.</i><br>
-        To order a physical or electronic copy of the upcoming HWMR book, see the <a href="{HWMR_LSM}" style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
+        If you still need a physical or electronic copy of the new HWMR book, see the <a href="{HWMR_LSM}" style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
 
         <p>For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
         <a href="https://drive.google.com/file/d/15seb5EfFD93_XuVOP4qi5fTzn4wLio8V/view?usp=drive_link" style="color: #0056b3; text-decoration: none;">this link</a>.</p>
@@ -84,12 +83,13 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
-            Monday: 7:30 PM {monday_meeting} <br>
-            Tuesday: 7:30 PM prayer meeting <br>
-            Thursday: 7:30 PM {thursday_meeting} <br>
-            Friday: 7:30 PM {friday_meeting} <br>
-            Saturday: 7:30 PM {saturday_meeting} <br>
-            Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting
+            Monday: 7:00 PM Training Message 7 <br>
+            Tuesday: 7:00 PM Training Message 8 <br>
+            Thursday: 7:00 PM Training Message 9 <br>
+            Wednesday: 7:00 PM Training Message 10 <br>
+            Friday: 7:00 PM Training Message 11 <br>
+            Saturday: 7:00 PM Training Message 12 <br>
+            Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
         </p>
     </div>
 </body>
