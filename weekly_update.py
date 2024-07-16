@@ -5,23 +5,22 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 1  # update weekly
+hwmr_week = 2  # update weekly
 HWMR = """Knowing, Experiencing, and Enjoying Christ as Revealed in Philippians"""
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999254-hwmr-knowing-experiencing-and-enjoying-christ-as-revealed-in-philippians.html"
-ushers = "David/Jaime"
+ushers = "Jaime/Craig"
 
 # Meeting topics to be updated weekly
-monday_meeting = "Life-study of First Thessalonians (message 9)"
-thursday_meeting = "Life-study of Second Peter (message 2)"
-friday_meeting = "Life-study of Hebrews (message 48)"
+monday_meeting = "Life-study of First Thessalonians (message 10)"
+thursday_meeting = "Life-study of Second Peter (message 3)"
+friday_meeting = "Life-study of Hebrews (message 49)"
 saturday_meeting = "Life-study of First Timothy (message 8)"
 
 announcements = """
 Hi saints, <br><br>
 
-This week we will repeat week 1 of the new Holy Word for Morning Revival. The normal church 
-meetings during are canceled this week due to the remainder of the video training. We will meet 
-next Lord's day for the Table and prophesying meetings. 
+This week we are in week 2 of the new Holy Word for Morning Revival. We have the normal church 
+meeting schedule this week in the meeting hall.
 <br><br>
 
 In Him.
@@ -83,12 +82,11 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
-            Monday: 7:00 PM Training Message 7 <br>
-            Tuesday: 7:00 PM Training Message 8 <br>
-            Thursday: 7:00 PM Training Message 9 <br>
-            Wednesday: 7:00 PM Training Message 10 <br>
-            Friday: 7:00 PM Training Message 11 <br>
-            Saturday: 7:00 PM Training Message 12 <br>
+            Monday: 7:30 PM {monday_meeting} <br>
+            Tuesday: 7:30 PM Prayer Meeting <br>
+            Thursday: 7:30 PM {thursday_meeting} <br>
+            Friday: 7:30 PM {friday_meeting} <br>
+            Saturday: 7:30 PM {saturday_meeting} <br>
             Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
         </p>
     </div>
