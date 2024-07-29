@@ -5,22 +5,21 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 2  # update weekly
+hwmr_week = 4  # update weekly
 HWMR = """Knowing, Experiencing, and Enjoying Christ as Revealed in Philippians"""
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999254-hwmr-knowing-experiencing-and-enjoying-christ-as-revealed-in-philippians.html"
-ushers = "Jaime/Craig"
+ushers = "Isaac/Craig"
 
 # Meeting topics to be updated weekly
-monday_meeting = "Life-study of First Thessalonians (message 10)"
+monday_meeting = "Life-study of First Thessalonians (message 11)"
 thursday_meeting = "Life-study of Second Peter (message 3)"
-friday_meeting = "Life-study of Hebrews (message 49)"
-saturday_meeting = "Life-study of First Timothy (message 8)"
+friday_meeting = "Life-study of Hebrews (message 50)"
+saturday_meeting = "Life-study of First Timothy (message 9)"
 
 announcements = """
 Hi saints, <br><br>
 
-This week we are in week 2 of the new Holy Word for Morning Revival. We have the normal church 
-meeting schedule this week in the meeting hall.
+We have the normal meeting schedule this week.
 <br><br>
 
 In Him.
