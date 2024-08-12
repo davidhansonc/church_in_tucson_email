@@ -5,13 +5,13 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 5  # update weekly
+hwmr_week = 6  # update weekly
 HWMR = """Knowing, Experiencing, and Enjoying Christ as Revealed in Philippians"""
-HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999254-hwmr-knowing-experiencing-and-enjoying-christ-as-revealed-in-philippians.html"
-ushers = "DC/Craig"
+HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999332-hwmr-being-a-vessel-unto-honor-a-fully-equipped-man-of-god-by-being-empowered-in-the-grace-which-is-in-christ-jesus.html"
+ushers = "David/Jaime"
 
 # Meeting topics to be updated weekly
-monday_meeting = "Life-study of First Thessalonians (message 11)"
+monday_meeting = "Life-study of First Thessalonians (message 12)"
 thursday_meeting = "Life-study of Second Peter (message 4)"
 friday_meeting = "Life-study of Hebrews (message 51)"
 saturday_meeting = "Life-study of First Timothy (message 9)"
@@ -19,7 +19,10 @@ saturday_meeting = "Life-study of First Timothy (message 9)"
 announcements = """
 Hi saints, <br><br>
 
-We have the normal meeting schedule this week.
+We have the normal meeting schedule this week. We are on the final week of the current Holy 
+Word for Morning Revival (HWMR) book. Next week we will begin the HWMR from the recent international 
+training for elders and resoponsible ones in April. The link below is updated for those who would 
+like to order a copy.
 <br><br>
 
 In Him.
@@ -63,7 +66,7 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3;">Next Lord's Day ({lords_day_date})</h2>
         
         <p><i>{HWMR}, week {hwmr_week}.</i><br>
-        If you still need a physical or electronic copy of the new HWMR book, see the <a href="{HWMR_LSM}" style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
+        If you want to buy a physical or electronic copy of the upcoming HWMR book, see the <a href="{HWMR_LSM}" style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
 
         <p>For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
         <a href="https://drive.google.com/file/d/15seb5EfFD93_XuVOP4qi5fTzn4wLio8V/view?usp=drive_link" style="color: #0056b3; text-decoration: none;">this link</a>.</p>
