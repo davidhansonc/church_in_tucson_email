@@ -5,30 +5,27 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 1  # update weekly
+hwmr_week = 2  # update weekly
 HWMR = """Being a Vessel unto Honor, a Fully Equipped Man of God, 
 by Being Empowered in the Grace which is in Christ Jesus 
 to Fully Accomplish Our Ministry in the Unique Ministry of God's Economy"""
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999332-hwmr-being-a-vessel-unto-honor-a-fully-equipped-man-of-god-by-being-empowered-in-the-grace-which-is-in-christ-jesus.html"
-ushers = "Jaime/Craig"
+ushers = "Isaac/DC"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians (message 13)"
-thursday_meeting = "Life-study of Second Peter (message 4)"
+thursday_meeting = "Life-study of Second Peter (message 5)"
 friday_meeting = "Life-study of Hebrews (message 52)"
-saturday_meeting = "Life-study of First Timothy (message 10)"
+saturday_meeting = "Life-study of First Timothy (message 11)"
 
 announcements = """
 Hi saints, <br><br>
 
-This week we begin week 1 of the new Holy Word for Morning Revival, linked below.
-<br><br>
-
-Upcoming is the International Thanksgiving Blending Conference on November 28 - December 1, 2024 in Atlanta, Georgia. 
-<a href=https://drive.google.com/file/d/1pEe2ikkHuHtj9qC-9oqgrmjLxnV8qGvK/view?usp=drive_link">Here is a link</a> to the 
-info for the conference. Saints can get a Living Stream Ministry group rate of $119 per night 
-at the Atlanta Marriott Marquis hotel. The number of rooms under this discount is limited, so try to get a room before 
-they run out!
+We have the normal schedule this week. Just a reminder to make arrangements for the 
+upcoming Thanksgiving Conference in Atlanta. 
+<a href=https://drive.google.com/file/d/1pEe2ikkHuHtj9qC-9oqgrmjLxnV8qGvK/view?usp=drive_link">Here 
+is the link</a> to the info for the conference. We will move this link to the info below on 
+future emails so that it's easily available.
 <br><br>
 
 In Him.
