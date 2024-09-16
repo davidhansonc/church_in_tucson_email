@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 4  # update weekly
+hwmr_week = 5  # update weekly
 HWMR = """Being a Vessel unto Honor, a Fully Equipped Man of God, 
 by Being Empowered in the Grace which is in Christ Jesus 
 to Fully Accomplish Our Ministry in the Unique Ministry of God's Economy"""
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999332-hwmr-being-a-vessel-unto-honor-a-fully-equipped-man-of-god-by-being-empowered-in-the-grace-which-is-in-christ-jesus.html"
-ushers = "Isaac/DC"
+ushers = "Jaime/DC"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -24,11 +24,11 @@ Hi saints, <br><br>
 We have the regular meeting schedule this week.
 <br><br>
 
-Pursue Him!
+In Him.
 """.format(hwmr_week=hwmr_week)
 
 current_date = datetime.today() 
-lords_day_date = lords_date(send_date=current_date).strftime('%Y-%m-%d')
+lords_day_date = lords_date(send_date=current_date).strftime('%m/%d/%Y')
 prophesying_order = get_prophesying_group_order(groups.prophesying_groups, current_date)
 cleaning_team = get_cleaning_group_order(groups.cleaning_groups, current_date)
 # ushers = get_ushering_order(groups.ushering_groups, current_date)
@@ -62,9 +62,9 @@ message_html = f"""<!DOCTYPE html>
 
         <p style="font-size: 16px;">{announcements}</p>
 
-        <h2 style="color: #0056b3;">Lord's Day ({lords_day_date})</h2>
+        <h2 style="color: #0056b3;">Lord's Day, {lords_day_date}</h2>
         
-        <p><i>{HWMR}, week {hwmr_week}.</i><br>
+        <p><i>{HWMR}, week {hwmr_week}.</i><br><br>
         If you want to buy a physical or electronic copy of the upcoming HWMR book, see the <a href="{HWMR_LSM}" 
         style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
 
