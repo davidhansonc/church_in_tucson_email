@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 5  # update weekly
+hwmr_week = 6  # update weekly
 HWMR = """Being a Vessel unto Honor, a Fully Equipped Man of God, 
 by Being Empowered in the Grace which is in Christ Jesus 
 to Fully Accomplish Our Ministry in the Unique Ministry of God's Economy"""
 HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999332-hwmr-being-a-vessel-unto-honor-a-fully-equipped-man-of-god-by-being-empowered-in-the-grace-which-is-in-christ-jesus.html"
-ushers = "Jaime/DC"
+ushers = "David/Jaime"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -21,7 +21,8 @@ saturday_meeting = "Life-study of First Timothy"
 announcements = """
 Hi saints, <br><br>
 
-We have the regular meeting schedule this week.
+The December semiannual training is coming up! The sign-up sheet for the live and video training will be posted in 
+the hall by this coming Lord's day. This week we have the regular meeting schedule.
 <br><br>
 
 In Him.
@@ -99,6 +100,8 @@ message_html = f"""<!DOCTYPE html>
             document at 
             <a href=https://drive.google.com/file/d/1pEe2ikkHuHtj9qC-9oqgrmjLxnV8qGvK/view?usp=drive_link">this link</a>.
             </p>
+        <h4>December Semiannual Training</h3>
+            <p>The sign-up sheet for the live and video semiannual training is posted in the hall.</p>
     </div>
 </body>
 </html>
