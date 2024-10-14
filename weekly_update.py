@@ -5,11 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 8  # update weekly
+hwmr_week = 1  # update weekly
 HWMR = """Being a Vessel unto Honor, a Fully Equipped Man of God, 
 by Being Empowered in the Grace which is in Christ Jesus 
 to Fully Accomplish Our Ministry in the Unique Ministry of God's Economy"""
-HWMR_LSM = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999332-hwmr-being-a-vessel-unto-honor-a-fully-equipped-man-of-god-by-being-empowered-in-the-grace-which-is-in-christ-jesus.htmlhttps://www.livingstream.com/en/holy-word-for-morning-revival/99999355-hwmr-experiencing-enjoying-and-expressing-christ-1-vol-1.html"
+HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999355-hwmr-experiencing-enjoying-and-expressing-christ-1-vol-1.html"
+min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999356-ministry-of-the-word-periodical-the-vol-28-no-07-september-2024.html"
 ushers = "Isaac/DC"
 
 # Meeting topics to be updated weekly
@@ -21,15 +22,11 @@ saturday_meeting = "Life-study of First Timothy"
 announcements = """
 Hi saints, <br><br>
 
-The meetings on Monday night, Friday night, and Saturday night are canceled 
-this week. The Tuesday night prayer meeting, Thursday night Life-study 
-meeting, and the Table and prophesying meetings on the Lord's day 
-remain as usual. 
+The meeting tonight (Monday night) is canceled. Otherwise we will resume the regular meeting schedule.
 <br><br>
 
-We are on the last week of the current HWMR book and next week we will 
-begin the book from the recent July training. The links below are updated for 
-those not on the standing order who would like to get a copy.
+This week we begin the first week of the morning revival book from the 2024 July training. The link is updated 
+below.
 <br><br>
 
 In Him.
@@ -73,8 +70,11 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3;">Lord's Day, {lords_day_date}</h2>
         
         <p><i>{HWMR}, week {hwmr_week}.</i><br><br>
-        If you want to buy a physical or electronic copy of the upcoming HWMR book, see the <a href="{HWMR_LSM}" 
-        style="color: #0056b3; text-decoration: none;">LSM Bookstore</a>.</p>
+        If you want to buy a physical or electronic copy of the upcoming Holy Word for Morning Revival book, see the LSM Bookstore:</p>
+        <ul>
+            <li> <a href="{HWMR_link}" style="color: #0056b3; text-decoration: none;">HWMR</a>
+            <li> <a href="{min_mag_link}" style="color: #0056b3; text-decoration: none;">Ministry Magazine</a>
+        </ul>
 
         <p>For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
         <a href="https://drive.google.com/file/d/15seb5EfFD93_XuVOP4qi5fTzn4wLio8V/view?usp=drive_link" 
@@ -95,6 +95,8 @@ message_html = f"""<!DOCTYPE html>
         <p>
             Tuesday: 7:30 PM Prayer Meeting <br>
             Thursday: 7:30 PM {thursday_meeting} <br>
+            Friday: 7:30 PM {friday_meeting} <br>
+            Saturday: 7:30 PM {saturday_meeting} <br>
             Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
         </p>
 
