@@ -5,13 +5,11 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 1  # update weekly
-HWMR = """Being a Vessel unto Honor, a Fully Equipped Man of God, 
-by Being Empowered in the Grace which is in Christ Jesus 
-to Fully Accomplish Our Ministry in the Unique Ministry of God's Economy"""
+hwmr_week = 2  # update weekly
+HWMR = """Experiencing, Enjoying, and Expressing Christ (1), vol. 1"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999355-hwmr-experiencing-enjoying-and-expressing-christ-1-vol-1.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999356-ministry-of-the-word-periodical-the-vol-28-no-07-september-2024.html"
-ushers = "Isaac/DC"
+ushers = "DC/Craig"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -20,13 +18,11 @@ friday_meeting = "Life-study of Hebrews"
 saturday_meeting = "Life-study of First Timothy"
 
 announcements = """
-Hi saints, <br><br>
-
-The meeting tonight (Monday night) is canceled. Otherwise we will resume the regular meeting schedule.
+Saints,
 <br><br>
 
-This week we begin the first week of the morning revival book from the 2024 July training. The link is updated 
-below.
+We have the normal meeting schedule this week. This coming Lord's day will be the last chance to add your name to the live or video semiannual training 
+sign-up sheet. 
 <br><br>
 
 In Him.
@@ -70,7 +66,7 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3;">Lord's Day, {lords_day_date}</h2>
         
         <p><i>{HWMR}, week {hwmr_week}.</i><br><br>
-        If you want to buy a physical or electronic copy of the upcoming Holy Word for Morning Revival book, see the LSM Bookstore:</p>
+        If you want to buy a physical or electronic copy of the Holy Word for Morning Revival book, see the LSM Bookstore:</p>
         <ul>
             <li> <a href="{HWMR_link}" style="color: #0056b3; text-decoration: none;">HWMR</a>
             <li> <a href="{min_mag_link}" style="color: #0056b3; text-decoration: none;">Ministry Magazine</a>
@@ -107,7 +103,7 @@ message_html = f"""<!DOCTYPE html>
             <a href=https://drive.google.com/file/d/1pEe2ikkHuHtj9qC-9oqgrmjLxnV8qGvK/view?usp=drive_link">this link</a>.
             </p>
         <h4>December Semiannual Training</h3>
-            <p>The sign-up sheet for the live and video semiannual training is posted in the hall.</p>
+            <p>The sign-up sheet for the live and video semiannual training is posted in the hall. Sign up by Lord's day 10/27.</p>
     </div>
 </body>
 </html>
