@@ -5,11 +5,11 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 2  # update weekly
+hwmr_week = 3  # update weekly
 HWMR = """Experiencing, Enjoying, and Expressing Christ (1), vol. 1"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999355-hwmr-experiencing-enjoying-and-expressing-christ-1-vol-1.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999356-ministry-of-the-word-periodical-the-vol-28-no-07-september-2024.html"
-ushers = "DC/Craig"
+ushers = "Isaac/Craig"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -18,11 +18,10 @@ friday_meeting = "Life-study of Hebrews"
 saturday_meeting = "Life-study of First Timothy"
 
 announcements = """
-Saints,
+Hi saints,
 <br><br>
 
-We have the normal meeting schedule this week. This coming Lord's day will be the last chance to add your name to the live or video semiannual training 
-sign-up sheet. 
+This week we have the regular meeting schedule. See below for updated info on upcoming events.
 <br><br>
 
 In Him.
@@ -89,6 +88,7 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
+            Monday: 7:30 PM {monday_meeting} <br>
             Tuesday: 7:30 PM Prayer Meeting <br>
             Thursday: 7:30 PM {thursday_meeting} <br>
             Friday: 7:30 PM {friday_meeting} <br>
@@ -97,13 +97,19 @@ message_html = f"""<!DOCTYPE html>
         </p>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Upcoming Events</h2>
-        <h4>Thanksgiving conference in Atlanta, Georgia</h3>
+        <h4>Thanksgiving conference in Atlanta, Georgia | Nov. 28-Dec. 1</h4>
             <p>For conference schedule, hotel options, and other information, please see the pdf 
             document at 
             <a href=https://drive.google.com/file/d/1pEe2ikkHuHtj9qC-9oqgrmjLxnV8qGvK/view?usp=drive_link">this link</a>.
             </p>
-        <h4>December Semiannual Training</h3>
-            <p>The sign-up sheet for the live and video semiannual training is posted in the hall. Sign up by Lord's day 10/27.</p>
+
+        <h4>December Semiannual Training | Dec. 23-28 </h4>
+            <p>If you are going to the live training, please fellowship if you need any support&mdash;such 
+            as a place to stay, a place to meet for the morning study time, or any financial needs.</p>
+
+        <h4>Tucson Festival of Books | March 15-16, 2025</h4>
+            <p>We will be tabling for Bibles for America again. 
+            More info to come...</p>
     </div>
 </body>
 </html>
