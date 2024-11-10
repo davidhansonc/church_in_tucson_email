@@ -5,11 +5,11 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 4  # update weekly
+hwmr_week = 5  # update weekly
 HWMR = """Experiencing, Enjoying, and Expressing Christ (1), vol. 1"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999355-hwmr-experiencing-enjoying-and-expressing-christ-1-vol-1.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999356-ministry-of-the-word-periodical-the-vol-28-no-07-september-2024.html"
-ushers = "Craig/David H."
+ushers = "Isaac/David H."
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -21,9 +21,9 @@ announcements = """
 Hi saints,
 <br><br>
 
-This week we have the regular meeting schedule. Brother Ron Kangas gave a message after the 
-recent ITERO in Poland at a blending meeting entitled "Doing the Will of God in the Two Systems of God 
-in the Universe". See <a href="https://www.lsm.org/blending">lsm.org/blending</a> for the video recording. 
+The mountain states blending conference with brother Ron will be in Phoenix February 21-23. There 
+will be more information in future emails concerning the details of the conference, including 
+hospitality and hotels. This week we have the regular meeting schedule. 
 <br><br>
 
 In Him.
@@ -109,7 +109,7 @@ message_html = f"""<!DOCTYPE html>
             <p>If you are going to the live training, please fellowship if you need any support&mdash;such 
             as a place to stay, a place to meet for the morning study time, or any financial needs.</p>
 
-        <h4>Phoenix Blending Conference | February 2025</h4>
+        <h4>Phoenix Blending Conference | February 21-23, 2025</h4>
             <p>Brother Ron will be coming to Phoenix for a Southwest blending conference. 
             More info to come...</p>
 
