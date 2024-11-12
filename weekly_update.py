@@ -13,7 +13,7 @@ ushers = "Isaac/David H."
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
-thursday_meeting = "Life-study of Second Peter"
+thursday_meeting = "Life-study of Matthew"
 friday_meeting = "Life-study of Hebrews"
 saturday_meeting = "Life-study of First Timothy"
 
