@@ -5,11 +5,11 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 5  # update weekly
+hwmr_week = 6  # update weekly
 HWMR = """Experiencing, Enjoying, and Expressing Christ (1), vol. 1"""
-HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999355-hwmr-experiencing-enjoying-and-expressing-christ-1-vol-1.html"
+HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999360-hwmr-experiencing-enjoying-and-expressing-christ-1-vol-2.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999356-ministry-of-the-word-periodical-the-vol-28-no-07-september-2024.html"
-ushers = "Isaac/David H."
+ushers = "David H./Jaime"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -21,9 +21,19 @@ announcements = """
 Hi saints,
 <br><br>
 
-The mountain states blending conference with brother Ron will be in Phoenix February 21-23. There 
-will be more information in future emails concerning the details of the conference, including 
-hospitality and hotels. This week we have the regular meeting schedule. 
+We will be sending out info for joining the Thanksgiving conference next week. The conference 
+will be available in various formats, including joining the church in Denver over Zoom with 
+breakout rooms for fellowship. 
+<br><br>
+
+This is the last week of volume one of the current morning revival book. Next week we will begin 
+7 in volume two. The links below are updated.
+<br><br>
+
+This week we will make our order with BFA for the Tucson Festival of Books! More info to come...
+<br><br>
+
+We have the regular church meeting schedule this week.
 <br><br>
 
 In Him.
