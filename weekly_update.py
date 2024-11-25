@@ -5,11 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 6  # update weekly
-HWMR = """Experiencing, Enjoying, and Expressing Christ (1), vol. 1"""
+hwmr_week = 7  # update weekly
+HWMR = """Experiencing, Enjoying, and Expressing Christ (1), vol. 2"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999360-hwmr-experiencing-enjoying-and-expressing-christ-1-vol-2.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999356-ministry-of-the-word-periodical-the-vol-28-no-07-september-2024.html"
-ushers = "David H./Jaime"
+webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?subj=422"
+ushers = "Craig/Jaime"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -21,19 +22,12 @@ announcements = """
 Hi saints,
 <br><br>
 
-We will be sending out info for joining the Thanksgiving conference next week. The conference 
-will be available in various formats, including joining the church in Denver over Zoom with 
-breakout rooms for fellowship. 
+This week we will have the Monday night and Tuesday night meetings, followed by the Thanksgiving 
+conference starting on Thursday evening. The conference messages will replace the normal Thursday, 
+Friday, and Saturday night meetings. On Lord's day we will have the Table and prophesying meetings 
+at the usual time. 
 <br><br>
-
-This is the last week of volume one of the current morning revival book. Next week we will begin 
-7 in volume two. The links below are updated.
-<br><br>
-
-This week we will make our order with BFA for the Tucson Festival of Books! More info to come...
-<br><br>
-
-We have the regular church meeting schedule this week.
+Detailed conference information and meeting schedule will be sent in a separate email.
 <br><br>
 
 In Him.
@@ -81,6 +75,7 @@ message_html = f"""<!DOCTYPE html>
         <ul>
             <li> <a href="{HWMR_link}" style="color: #0056b3; text-decoration: none;">HWMR</a>
             <li> <a href="{min_mag_link}" style="color: #0056b3; text-decoration: none;">Ministry Magazine</a>
+            <li> <a href="{webcast_link}" style="color: #0056b3; text-decoration: none;">Audio Messages</a>
         </ul>
 
         <p>For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
@@ -102,9 +97,6 @@ message_html = f"""<!DOCTYPE html>
         <p>
             Monday: 7:30 PM {monday_meeting} <br>
             Tuesday: 7:30 PM Prayer Meeting <br>
-            Thursday: 7:30 PM {thursday_meeting} <br>
-            Friday: 7:30 PM {friday_meeting} <br>
-            Saturday: 7:30 PM {saturday_meeting} <br>
             Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
         </p>
 
