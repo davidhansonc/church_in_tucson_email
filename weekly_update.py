@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 7  # update weekly
+hwmr_week = 8  # update weekly
 HWMR = """Experiencing, Enjoying, and Expressing Christ (1), vol. 2"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999360-hwmr-experiencing-enjoying-and-expressing-christ-1-vol-2.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999356-ministry-of-the-word-periodical-the-vol-28-no-07-september-2024.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?subj=422"
-ushers = "Craig/Jaime"
+ushers = "Isaac/David H."
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -22,12 +22,8 @@ announcements = """
 Hi saints,
 <br><br>
 
-This week we will have the Monday night and Tuesday night meetings, followed by the Thanksgiving 
-conference starting on Thursday evening. The conference messages will replace the normal Thursday, 
-Friday, and Saturday night meetings. On Lord's day we will have the Table and prophesying meetings 
-at the usual time. 
-<br><br>
-Detailed conference information and meeting schedule will be sent in a separate email.
+A reminder that we are watching message 6 of the conference tonight at 7:30 in the hall! Otherwise, we 
+will resume the normal meeting schedule starting tomorrow for the prayer meeting.
 <br><br>
 
 In Him.
@@ -95,18 +91,14 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
-            Monday: 7:30 PM {monday_meeting} <br>
             Tuesday: 7:30 PM Prayer Meeting <br>
+            Thursday: 7:30 PM {thursday_meeting} <br>
+            Friday: 7:30 PM {friday_meeting} <br>
+            Saturday: 7:30 PM {saturday_meeting} <br>
             Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
         </p>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Upcoming Events</h2>
-        <h4>Thanksgiving conference in Atlanta, Georgia | Nov. 28-Dec. 1</h4>
-            <p>For conference schedule, hotel options, and other information, please see the pdf 
-            document at 
-            <a href=https://drive.google.com/file/d/1pEe2ikkHuHtj9qC-9oqgrmjLxnV8qGvK/view?usp=drive_link">this link</a>.
-            </p>
-
         <h4>December Semiannual Training | Dec. 23-28 </h4>
             <p>If you are going to the live training, please fellowship if you need any support&mdash;such 
             as a place to stay, a place to meet for the morning study time, or any financial needs.</p>
