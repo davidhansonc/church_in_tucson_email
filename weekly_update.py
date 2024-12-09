@@ -5,28 +5,31 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 8  # update weekly
+hwmr_week = 9  # update weekly
 HWMR = """Experiencing, Enjoying, and Expressing Christ (1), vol. 2"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999360-hwmr-experiencing-enjoying-and-expressing-christ-1-vol-2.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999356-ministry-of-the-word-periodical-the-vol-28-no-07-september-2024.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?subj=422"
-ushers = "Isaac/David H."
+ushers = "Isaac/Craig"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
 thursday_meeting = "Life-study of Matthew"
 friday_meeting = "Life-study of Hebrews"
-saturday_meeting = "Life-study of First Timothy"
+saturday_meeting = "Life-study of Second Timothy"
 
 announcements = """
 Hi saints,
 <br><br>
 
-A reminder that we are watching message 6 of the conference tonight at 7:30 in the hall! Otherwise, we 
-will resume the normal meeting schedule starting tomorrow for the prayer meeting.
+This week there will be no Life-study reading meetings due to saints being out of town. We will 
+have the prayer meeting on Tuesday and the Table/Prophesying meetings on the Lord's day as usual.`
+<br><br>
+Since a large percentage of our saints are going to the Semiannual Training live in person, we need 
+to cancel the Tucson video training.
 <br><br>
 
-In Him.
+Praise the Lord for His Word!
 """.format(hwmr_week=hwmr_week)
 
 current_date = datetime.today() 
@@ -92,9 +95,6 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
             Tuesday: 7:30 PM Prayer Meeting <br>
-            Thursday: 7:30 PM {thursday_meeting} <br>
-            Friday: 7:30 PM {friday_meeting} <br>
-            Saturday: 7:30 PM {saturday_meeting} <br>
             Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
         </p>
 
