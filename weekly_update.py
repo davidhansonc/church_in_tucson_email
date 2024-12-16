@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 9  # update weekly
+hwmr_week = 10 # update weekly
 HWMR = """Experiencing, Enjoying, and Expressing Christ (1), vol. 2"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999360-hwmr-experiencing-enjoying-and-expressing-christ-1-vol-2.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999356-ministry-of-the-word-periodical-the-vol-28-no-07-september-2024.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?subj=422"
-ushers = "Isaac/Craig"
+ushers = "Jaime/Osvin"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -22,14 +22,16 @@ announcements = """
 Hi saints,
 <br><br>
 
-This week there will be no Life-study reading meetings due to saints being out of town. We will 
-have the prayer meeting on Tuesday and the Table/Prophesying meetings on the Lord's day as usual.`
+One update to an announcement from last week is that we will have the Tucson video training. The three 
+sisters who are signed up will meet in the hall to watch the training messages. 
 <br><br>
-Since a large percentage of our saints are going to the Semiannual Training live in person, we need 
-to cancel the Tucson video training.
+Since many are out of town, the meeting schedule this week will be similar to last week. Tomorrow night 
+we will meet in the hall for the Prayer meeting. On Lord's day we plan to have the Table/Prophesying 
+meetings. If that changes there will be an email update. 
+For the Life-study meetings, saints can coordinate via text or email privately.
 <br><br>
 
-Praise the Lord for His Word!
+In Him.
 """.format(hwmr_week=hwmr_week)
 
 current_date = datetime.today() 
