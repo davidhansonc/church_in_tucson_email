@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 11 # update weekly
+hwmr_week = 12 # update weekly
 HWMR = """Experiencing, Enjoying, and Expressing Christ (1), vol. 2"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999347-hwmr-the-christian-life.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999346-ministry-of-the-word-periodical-the-vol-28-no-06-august-2024.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=420"
-ushers = "David H./Jaime"
+ushers = "Jaime/DC"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -22,13 +22,9 @@ announcements = """
 Hi saints,
 <br><br>
 
-This week we will move on to week 11 of the current Holy Word for Morning Revival. The next upcoming 
-Morning Revival book will be "The Christian Life" from the recent Memorial Day conference. The links 
-are updated below.
-<br><br>
-The last message of the Tucson video training will be Wednesday night. Those who attended the training 
-live in Anaheim are welcome to join the remaining video training meetings if they would like. 
-We will resume the normal church meeting schedule on Thursday. 
+This week we resume the regular meeting schedule. For any saints who are looking for hospitality 
+and/or childcare during the blending conference with brother Ron in Phoenix, there are sign-up sheets 
+on the table in the meeting hall. Please sign-up before the end of the month.
 <br><br>
 
 In Him.
@@ -97,6 +93,8 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
+            Monday: 7:30 PM {monday_meeting} <br>
+            Tuesday: 7:30 PM Prayer Meeting <br>
             Thursday: 7:30 PM {thursday_meeting} <br>
             Friday: 7:30 PM {friday_meeting} <br>
             Saturday: 7:30 PM {saturday_meeting} <br>
@@ -106,7 +104,8 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3; margin-top: 40px;">Upcoming Events</h2>
         <h4>Phoenix Blending Conference | February 21-23, 2025</h4>
             <p>Brother Ron will be coming to Phoenix for a Southwest blending conference. 
-            More info to come...</p>
+            Sign up on the sign-up sheets in the hall for hospitality and/or childcare during 
+            the conference.</p>
 
         <h4>Tucson Festival of Books | March 15-16, 2025</h4>
             <p>We will be tabling for Bibles for America again. 
