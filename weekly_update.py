@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 12 # update weekly
-HWMR = """Experiencing, Enjoying, and Expressing Christ (1), vol. 2"""
+hwmr_week = 1 # update weekly
+HWMR = """The Christian Life"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999347-hwmr-the-christian-life.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999346-ministry-of-the-word-periodical-the-vol-28-no-06-august-2024.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=420"
-ushers = "Jaime/DC"
+ushers = "Isaac/DC"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -18,17 +18,17 @@ thursday_meeting = "Life-study of Matthew"
 friday_meeting = "Life-study of Hebrews"
 saturday_meeting = "Life-study of Second Timothy"
 
-announcements = """
+announcements = f"""
 Hi saints,
 <br><br>
 
-This week we resume the regular meeting schedule. For any saints who are looking for hospitality 
-and/or childcare during the blending conference with brother Ron in Phoenix, there are sign-up sheets 
-on the table in the meeting hall. Please sign-up before the end of the month.
+This week we have the normal church meeting schedule. We are beginning week 1 of the new morning revival 
+book, "{HWMR}". See the links below if you need an electronic copy. Unfortunately the physical copies 
+are currently out of stock.
 <br><br>
 
 In Him.
-""".format(hwmr_week=hwmr_week)
+"""
 
 current_date = datetime.today() 
 lords_day_date = lords_date(send_date=current_date).strftime('%m/%d/%Y')
@@ -68,7 +68,7 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3;">Lord's Day, {lords_day_date}</h2>
         
         <p><i>{HWMR}, week {hwmr_week}.</i><br><br>
-        For the upcoming Holy Word for Morning Revival book and associated the written and/or audio 
+        For the Holy Word for Morning Revival book and associated the written and/or audio 
         messages from the conference, see the following links:</p>
         <ul>
             <li> <a href="{HWMR_link}" style="color: #0056b3; text-decoration: none;">HWMR</a>
