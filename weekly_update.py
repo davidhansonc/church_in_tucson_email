@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 1 # update weekly
+hwmr_week = 2 # update weekly
 HWMR = """The Christian Life"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999347-hwmr-the-christian-life.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999346-ministry-of-the-word-periodical-the-vol-28-no-06-august-2024.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=420"
-ushers = "Isaac/DC"
+ushers = "Isaac/Craig"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -22,9 +22,8 @@ announcements = f"""
 Hi saints,
 <br><br>
 
-This week we have the normal church meeting schedule. We are beginning week 1 of the new morning revival 
-book, "{HWMR}". See the links below if you need an electronic copy. Unfortunately the physical copies 
-are currently out of stock.
+This week we have the normal church meeting schedule. Reminder to sign up in the hall for hospitality or childcare at the upcoming blending 
+conference with Ron in Phoenix.
 <br><br>
 
 In Him.
