@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 2 # update weekly
+hwmr_week = 3 # update weekly
 HWMR = """The Christian Life"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999347-hwmr-the-christian-life.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999346-ministry-of-the-word-periodical-the-vol-28-no-06-august-2024.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=420"
-ushers = "Isaac/Craig"
+ushers = "Craig/David"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -22,8 +22,7 @@ announcements = f"""
 Hi saints,
 <br><br>
 
-This week we have the normal church meeting schedule. Reminder to sign up in the hall for hospitality or childcare at the upcoming blending 
-conference with Ron in Phoenix.
+We have the normal church meeting schedule this week.
 <br><br>
 
 In Him.
@@ -83,6 +82,8 @@ message_html = f"""<!DOCTYPE html>
         <ul style="list-style-type: none; padding: 0;">
             {prophesying_formatted}
         </ul>
+        Saints generally can focus their speaking on their assigned day, but are not precluded from speaking on a different day
+        if the Spirit inspires you with something. Anyone who is not yet in a group may speak on any day as the Spirit leads.
         
 		<h3 style="color: #0056b3;">Cleaning Team and Ushers:</h3>
         <p style="margin-bottom: 20px;">{cleaning_formatted}</p>
