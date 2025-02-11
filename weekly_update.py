@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 4 # update weekly
+hwmr_week = 5 # update weekly
 HWMR = """The Christian Life"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999347-hwmr-the-christian-life.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999346-ministry-of-the-word-periodical-the-vol-28-no-06-august-2024.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=420"
-ushers = "Jaime/David"
+ushers = "Jaime/Craig"
 
 # Meeting topics to be updated weekly
 monday_meeting = "Life-study of First Thessalonians"
@@ -22,7 +22,9 @@ announcements = f"""
 Hi saints,
 <br><br>
 
-We have the normal church meeting schedule this week.
+We have the regular church meeting schedule this week. This coming weekend is the Chinese Speaking Conference through 
+Living Stream Ministry. The saints can view the messages on their own using the LSM Webcast website at 
+<a href="https://www.lsmwebcast.com/Conference.cfm" style="color: #0056b3; text-decoration: none;">lsmwebcast.com/Conference.cfm</a>
 <br><br>
 
 In Him.
