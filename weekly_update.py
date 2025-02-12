@@ -22,11 +22,22 @@ announcements = f"""
 Hi saints,
 <br><br>
 
-We have the regular church meeting schedule this week. This coming weekend is the Chinese Speaking Conference through 
+We have the regular church meeting schedule this week. This weekend will be the Chinese Speaking Conference through 
 Living Stream Ministry. The saints can view the messages on their own using the LSM Webcast website at 
 <a href="https://www.lsmwebcast.com/Conference.cfm" style="color: #0056b3; text-decoration: none;">lsmwebcast.com/Conference.cfm</a>
 <br><br>
 
+The timezone adjusted schedule will be: <br>
+Meeting 1 - Friday, February 14 - 8:25 PM <br>
+Meeting 2 - Saturday, February 15 - 9:55 PM <br>
+Meeting 3 - Saturday, February 15 - 11:55 AM <br>
+Meeting 4 - Saturday, February 15 - 8:25 PM <br>
+Meeting 5 - Lord's Day, February 16 - 10:55 AM
+
+<br><br>
+Messages that conflict with our meeting schedule can be watched after in the archive section.
+
+<br><br>
 In Him.
 """
 
