@@ -5,11 +5,11 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 5 # update weekly
+hwmr_week = 6 # update weekly
 HWMR = """The Christian Life"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999347-hwmr-the-christian-life.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999346-ministry-of-the-word-periodical-the-vol-28-no-06-august-2024.html"
-webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=420"
+webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=425"
 ushers = "Jaime/Craig"
 
 # Meeting topics to be updated weekly
@@ -22,20 +22,8 @@ announcements = f"""
 Hi saints,
 <br><br>
 
-We have the regular church meeting schedule this week. This weekend will be the Chinese Speaking Conference through 
-Living Stream Ministry. The saints can view the messages on their own using the LSM Webcast website at 
-<a href="https://www.lsmwebcast.com/Conference.cfm" style="color: #0056b3; text-decoration: none;">lsmwebcast.com/Conference.cfm</a>
-<br><br>
-
-The timezone adjusted schedule will be: <br>
-Meeting 1 - Friday, February 14 - 8:25 PM <br>
-Meeting 2 - Saturday, February 15 - 9:55 PM <br>
-Meeting 3 - Saturday, February 15 - 11:55 AM <br>
-Meeting 4 - Saturday, February 15 - 8:25 PM <br>
-Meeting 5 - Lord's Day, February 16 - 10:55 AM
-
-<br><br>
-Messages that conflict with our meeting schedule can be watched after in the archive section.
+This coming weekend is the conference with brother Ron Kangas in Phoenix. There will be no Table Meeting or other meetings in 
+Tucson this weekend since hopefully many if not all of us can go to Phoenix for the conference!
 
 <br><br>
 In Him.
@@ -109,8 +97,6 @@ message_html = f"""<!DOCTYPE html>
             Monday: 7:30 PM {monday_meeting} <br>
             Tuesday: 7:30 PM Prayer Meeting <br>
             Thursday: 7:30 PM {thursday_meeting} <br>
-            Friday: 7:30 PM {friday_meeting} <br>
-            Saturday: 7:30 PM {saturday_meeting} <br>
             Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
         </p>
 
