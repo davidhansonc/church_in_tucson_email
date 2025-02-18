@@ -9,7 +9,7 @@ hwmr_week = 6 # update weekly
 HWMR = """The Christian Life"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999347-hwmr-the-christian-life.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999346-ministry-of-the-word-periodical-the-vol-28-no-06-august-2024.html"
-webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=425"
+webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=420"
 ushers = "Jaime/Craig"
 
 # Meeting topics to be updated weekly
@@ -22,8 +22,11 @@ announcements = f"""
 Hi saints,
 <br><br>
 
-This coming weekend is the conference with brother Ron Kangas in Phoenix. There will be no Table Meeting or other meetings in 
-Tucson this weekend since hopefully many if not all of us can go to Phoenix for the conference!
+This coming weekend we have the conference with brother Ron Kangas in Phoenix. There will be no Table Meeting or other meetings in 
+Tucson this weekend, since hopefully many if not all of us will be able to attend the conference. Reminder to account for traffic
+on Friday for the first meeting.<br><br>
+
+We are on week 6 of the HWMR and will repeat week 6 next week for us to speak on after the conference.
 
 <br><br>
 In Him.
@@ -66,39 +69,13 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3;">Lord's Day, {lords_day_date}</h2>
         
-        <p><i>{HWMR}, week {hwmr_week}.</i><br><br>
-        For the Holy Word for Morning Revival book and associated the written and/or audio 
-        messages from the conference, see the following links:</p>
+        <p>This Lord's day, we will be in Phoenix for the conference, but here is the morning revival info for the week:<br><br>
+        <i>{HWMR}, week {hwmr_week}.</i><br>
         <ul>
             <li> <a href="{HWMR_link}" style="color: #0056b3; text-decoration: none;">HWMR</a>
             <li> <a href="{min_mag_link}" style="color: #0056b3; text-decoration: none;">Ministry Magazine</a>
             <li> <a href="{webcast_link}" style="color: #0056b3; text-decoration: none;">Audio Messages</a>
         </ul>
-
-        <p>For the church document with the prophesying, cleaning, and ushering schedules and groups, please use 
-        <a href="https://drive.google.com/file/d/15seb5EfFD93_XuVOP4qi5fTzn4wLio8V/view?usp=drive_link" 
-        style="color: #0056b3; text-decoration: none;">this link</a>.</p>
-        
-        <h3 style="color: #0056b3;">Prophesying Schedule:</h3>
-        <ul style="list-style-type: none; padding: 0;">
-            {prophesying_formatted}
-        </ul>
-        Saints generally can focus their speaking on their assigned day, but are not precluded from speaking on a different day
-        if the Spirit inspires you with something. Anyone who is not yet in a group may speak on any day as the Spirit leads.
-        
-		<h3 style="color: #0056b3;">Cleaning Team and Ushers:</h3>
-        <p style="margin-bottom: 20px;">{cleaning_formatted}</p>
-        <p style="margin-bottom: 20px;"><b>Ushers</b>: {ushers}</p>
-        <p style="margin-bottom: 20px;">Please meet at the hall about a half hour before the Table meeting starts 
-        for cleaning and preparing the elements.</p>
-
-        <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
-        <p>
-            Monday: 7:30 PM {monday_meeting} <br>
-            Tuesday: 7:30 PM Prayer Meeting <br>
-            Thursday: 7:30 PM {thursday_meeting} <br>
-            Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
-        </p>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Upcoming Events</h2>
         <h4>Phoenix Blending Conference | February 21-23, 2025</h4>
@@ -122,7 +99,7 @@ message_html = f"""<!DOCTYPE html>
 
 if __name__ == "__main__":
 	# Define the filename for the output HTML file
-	filename = "./email.html"
+	filename = "./email_temp.html"
 
 	# Writing the HTML content to a file
 	with open(filename, 'w', encoding='utf-8') as file:
