@@ -7,8 +7,8 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 subject = "Church in Tucson Weekly Announcements"
 hwmr_week = 6 # update weekly
 HWMR = """The Christian Life"""
-HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999347-hwmr-the-christian-life.html"
-min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999346-ministry-of-the-word-periodical-the-vol-28-no-06-august-2024.html"
+HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999390-hwmr-living-a-christian-life-and-church-life-under-the-government-of-god-for-the-economy-of-god.html"
+min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999388-ministry-of-the-word-periodical-the-vol-29-no-01-february-2025.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=425"
 ushers = "Jaime/Craig"
 
@@ -22,8 +22,13 @@ announcements = f"""
 Hi saints,
 <br><br>
 
-This coming weekend is the conference with brother Ron Kangas in Phoenix. There will be no Table Meeting or other meetings in 
-Tucson this weekend since hopefully many if not all of us can go to Phoenix for the conference!
+This week we are repeating week 6 of the current Holy Word for Morning Revival (HWMR). Next week we will start week 1 of the HWMR from 
+the recent Thanksgiving conference in Atlanta entitled "Living a Christian Life and Church Life Under the Government of God for the Economy of God". 
+The links below are updated for the audio messages, HWMR book, and The Ministry of the Word for the printed messages. If you'd like a 
+physical copy of the HWMR book, you can order your own or see brother Isaac Hsu.
+<br><br>
+
+There will be no meeting tonight. We will resume the normal schedule starting tomorrow for the prayer meeting.
 
 <br><br>
 In Him.
@@ -67,7 +72,7 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3;">Lord's Day, {lords_day_date}</h2>
         
         <p><i>{HWMR}, week {hwmr_week}.</i><br><br>
-        For the Holy Word for Morning Revival book and associated the written and/or audio 
+        For the new Holy Word for Morning Revival book and the associated printed and/or audio 
         messages from the conference, see the following links:</p>
         <ul>
             <li> <a href="{HWMR_link}" style="color: #0056b3; text-decoration: none;">HWMR</a>
@@ -94,24 +99,14 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
-            Monday: 7:30 PM {monday_meeting} <br>
             Tuesday: 7:30 PM Prayer Meeting <br>
             Thursday: 7:30 PM {thursday_meeting} <br>
+            Friday: 7:30 PM {friday_meeting} <br>
+            Saturday: 7:30 PM {saturday_meeting} <br>
             Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
         </p>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Upcoming Events</h2>
-        <h4>Phoenix Blending Conference | February 21-23, 2025</h4>
-            Meetings will be at the Phoenix meeting hall:<br>
-<a href="https://www.google.com/maps?q=17803+North+27th+Avenue,+Phoenix,+Arizona+85053,+United+States" style="color: #0056b3 target="_blank">17803 North 27th Avenue, Phoenix, Arizona 85053</a>
-
-            <ul style="list-style-type: none;">
-                <li> Meeting 1: Friday, 7:30 PM
-                <li> Meeting 2: Saturday, 10:00 AM
-                <li> Meeting 3: Saturday, 7:00 PM
-                <li> Meeting 4: Lord's Day, 10:00 AM
-            </ul>
-
         <h4>Tucson Festival of Books | March 15-16, 2025</h4>
             <p>Please sign up in the hall for time slot(s) to be at the table. We will also need some to help set up and break down 
             before and after the festival.</p>
