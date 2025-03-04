@@ -5,15 +5,14 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 6 # update weekly
-HWMR = """The Christian Life"""
+hwmr_week = 1 # update weekly
+HWMR = """Living a Christian Life and Church Life Under the Government of God for the Economy of God"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999390-hwmr-living-a-christian-life-and-church-life-under-the-government-of-god-for-the-economy-of-god.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999388-ministry-of-the-word-periodical-the-vol-29-no-01-february-2025.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=425"
-ushers = "Jaime/Craig"
+ushers = "Isaac/Craig"
 
 # Meeting topics to be updated weekly
-monday_meeting = "Life-study of First Thessalonians"
 thursday_meeting = "Life-study of Matthew"
 friday_meeting = "Life-study of Hebrews"
 saturday_meeting = "Life-study of Titus"
@@ -22,13 +21,18 @@ announcements = f"""
 Hi saints,
 <br><br>
 
-This week we are repeating week 6 of the current Holy Word for Morning Revival (HWMR). Next week we will start week 1 of the HWMR from 
-the recent Thanksgiving conference in Atlanta entitled "Living a Christian Life and Church Life Under the Government of God for the Economy of God". 
-The links below are updated for the audio messages, HWMR book, and The Ministry of the Word for the printed messages. If you'd like a 
-physical copy of the HWMR book, you can order your own or see brother Isaac Hsu.
+This week we begin week 1 of the new Holy Word for Morning Revival (HWMR). 
+The links below are all updated for the associated audio messages, the HWMR book, and The Ministry of the Word for the printed messages. 
+If you'd like a physical copy of the HWMR book, you can order your own or see brother Isaac Hsu.
 <br><br>
 
-There will be no meeting tonight. We will resume the normal schedule starting tomorrow for the prayer meeting.
+We are canceling Monday night Life-study meetings for now due to needing that time for a weekly brothers' meeting. 
+The rest of the schedule is to remain the same as normal.
+<br><br>
+
+Don't forget to sign up in the hall for tabling at the book fair! 
+If you do not sign up, you are still welcome to come, but it's helpful for us 
+to have a schedule as much as possible so that we can make sure we have enough saints there for the whole fair.
 
 <br><br>
 In Him.
