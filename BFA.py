@@ -15,7 +15,7 @@ schedule = """
     </tr>
     <tr><td>9:30 AM - 10:00 AM</td><td>Craig</td><td>David H.</td><td></td><td></td></tr>
     <tr><td>10:00 AM - 10:30 AM</td><td>Craig</td><td>David H.</td><td>Jaime T.</td><td>Joel C.</td></tr>
-    <tr><td>10:30 AM - 11:00 AM</td><td>Craig</td><td>David H.</td><td>Jaime T.</td>Joel C.<td></td></tr>
+    <tr><td>10:30 AM - 11:00 AM</td><td>Craig</td><td>David H.</td><td>Jaime T.</td><td>Joel C.</td></tr>
     <tr><td>11:00 AM - 11:30 AM</td><td>Craig</td><td>David H.</td><td>Joel C.</td><td>DC</td></tr>
     <tr><td>11:30 AM - 12:00 PM</td><td>Craig</td><td>David H.</td><td>Joel C.</td><td>DC</td></tr>
     <tr><td>12:00 PM - 12:30 PM</td><td></td><td>Joel C.</td><td>DC</td><td></td></tr>
@@ -41,21 +41,21 @@ schedule = """
         <th></th>
     </tr>
     <tr><td>9:30 AM - 10:00 AM</td><td>Craig</td><td>David H.</td><td></td><td></td></tr>
-    <tr><td>10:00 AM - 10:30 AM</td><td>Craig</td><td>David H.</td><td>Jaime T.</td><td>Joel C.</td></tr>
-    <tr><td>10:30 AM - 11:00 AM</td><td>Craig</td><td>David H.</td><td>Jaime T.</td>Joel C.<td></td></tr>
-    <tr><td>11:00 AM - 11:30 AM</td><td>Craig</td><td>David H.</td><td>Joel C.</td><td>DC</td></tr>
-    <tr><td>11:30 AM - 12:00 PM</td><td>Craig</td><td>David H.</td><td>Joel C.</td><td>DC</td></tr>
-    <tr><td>12:00 PM - 12:30 PM</td><td></td><td>Joel C.</td><td>DC</td><td></td></tr>
-    <tr><td>12:30 PM - 1:00 PM</td><td>Joel C.</td><td>DC</td><td></td><td></td></tr>
-    <tr><td>1:00 PM - 1:30 PM</td><td>DC</td><td>Jonathan</td><td></td><td></td></tr>
-    <tr><td>1:30 PM - 2:00 PM</td><td>DC</td><td>Jonathan</td><td></td><td></td></tr>
-    <tr><td>2:00 PM - 2:30 PM</td><td>Jaime T.</td><td>Judy</td><td></td><td></td></tr>
-    <tr><td>2:30 PM - 3:00 PM</td><td>Jaime T.</td><td>Judy</td><td></td><td></td></tr>
-    <tr><td>3:00 PM - 3:30 PM</td><td>Craig</td><td>Judy</td><td></td><td></td></tr>
-    <tr><td>3:30 PM - 4:00 PM</td><td>Craig</td><td>Judy</td><td></td><td></td></tr>
-    <tr><td>4:00 PM - 4:30 PM</td><td>Craig</td><td>Judy</td><td></td><td></td></tr>
-    <tr><td>4:30 PM - 5:00 PM</td><td>Craig</td><td>Judy</td><td></td><td></td></tr>
-    <tr><td>5:00 PM - 5:30 PM</td><td>Craig</td><td>Judy</td><td></td><td></td></tr>
+    <tr><td>10:00 AM - 10:30 AM</td><td>Isaac/Esther</td><td>Joel C.</td><td></td><td></td></tr>
+    <tr><td>10:30 AM - 11:00 AM</td><td>Isaac/Esther</td><td>Joel C.</td><td></td><td></td></tr>
+    <tr><td>11:00 AM - 11:30 AM</td><td>Isaac/Esther</td><td>Joel C.</td><td></td><td></td></tr>
+    <tr><td>11:30 AM - 12:00 PM</td><td>Isaac/Esther</td><td>Joel C.</td><td></td><td></td></tr>
+    <tr><td>12:00 PM - 12:30 PM</td><td>Isaac/Esther</td><td>Joel C.</td><td></td><td></td></tr>
+    <tr><td>12:30 PM - 1:00 PM</td><td>Isaac/Esther</td><td>Joel C.</td><td></td><td></td></tr>
+    <tr><td>1:00 PM - 1:30 PM</td><td>Craig</td><td>David H.</td><td></td><td></td></tr>
+    <tr><td>1:30 PM - 2:00 PM</td><td>Craig</td><td>David H.</td><td></td><td></td></tr>
+    <tr><td>2:00 PM - 2:30 PM</td><td>Craig</td><td>David H.</td><td></td><td></td></tr>
+    <tr><td>2:30 PM - 3:00 PM</td><td>Craig</td><td>David H.</td><td></td><td></td></tr>
+    <tr><td>3:00 PM - 3:30 PM</td><td>Craig</td><td>David H.</td><td></td><td></td></tr>
+    <tr><td>3:30 PM - 4:00 PM</td><td>Craig</td><td>David H.</td><td></td><td></td></tr>
+    <tr><td>4:00 PM - 4:30 PM</td><td>Craig</td><td>David H.</td><td></td><td></td></tr>
+    <tr><td>4:30 PM - 5:00 PM</td><td>Craig</td><td>David H.</td><td></td><td></td></tr>
+    <tr><td>5:00 PM - 5:30 PM</td><td>Craig</td><td>David H.</td><td></td><td></td></tr>
 </table>
 """
 
