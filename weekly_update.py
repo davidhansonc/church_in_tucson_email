@@ -5,34 +5,24 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 1 # update weekly
+hwmr_week = 2 # update weekly
 HWMR = """Living a Christian Life and Church Life Under the Government of God for the Economy of God"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999390-hwmr-living-a-christian-life-and-church-life-under-the-government-of-god-for-the-economy-of-god.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999388-ministry-of-the-word-periodical-the-vol-29-no-01-february-2025.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=425"
-ushers = "Isaac/Craig"
+ushers = "Jaime/DC"
 
 # Meeting topics to be updated weekly
 thursday_meeting = "Life-study of Matthew"
-friday_meeting = "Life-study of Hebrews"
+friday_meeting = "Life-study of James"
 saturday_meeting = "Life-study of Titus"
 
 announcements = f"""
 Hi saints,
 <br><br>
 
-This week we begin week 1 of the new Holy Word for Morning Revival (HWMR). 
-The links below are all updated for the associated audio messages, the HWMR book, and The Ministry of the Word for the printed messages. 
-If you'd like a physical copy of the HWMR book, you can order your own or see brother Isaac Hsu.
-<br><br>
-
-We are canceling Monday night Life-study meetings for now due to needing that time for a weekly brothers' meeting. 
-The rest of the schedule is to remain the same as normal.
-<br><br>
-
-Don't forget to sign up in the hall for tabling at the book fair! 
-If you do not sign up, you are still welcome to come, but it's helpful for us 
-to have a schedule as much as possible so that we can make sure we have enough saints there for the whole fair.
+This week we are back to the normal church meeting schedule, repeating week 2 of the HWMR. 
+Thank you all who served at the book fair! We will be discussing the follow-up this week.
 
 <br><br>
 In Him.
@@ -76,7 +66,7 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3;">Lord's Day, {lords_day_date}</h2>
         
         <p><i>{HWMR}, week {hwmr_week}.</i><br><br>
-        For the new Holy Word for Morning Revival book and the associated printed and/or audio 
+        For the Holy Word for Morning Revival book and the associated printed and/or audio 
         messages from the conference, see the following links:</p>
         <ul>
             <li> <a href="{HWMR_link}" style="color: #0056b3; text-decoration: none;">HWMR</a>
@@ -111,9 +101,8 @@ message_html = f"""<!DOCTYPE html>
         </p>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Upcoming Events</h2>
-        <h4>Tucson Festival of Books | March 15-16, 2025</h4>
-            <p>Please sign up in the hall for time slot(s) to be at the table. We will also need some to help set up and break down 
-            before and after the festival.</p>
+        <h4>Memorial Day Blending Conference in Phoenix, AZ | May 23-26, 2025</h4>
+            <p>We will fellowship on this in the near future.</p>
     </div>
 </body>
 </html>
