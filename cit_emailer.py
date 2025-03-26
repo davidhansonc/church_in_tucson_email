@@ -2,6 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import configparser
+from weekly_update import subject
 
 # Load configuration
 config = configparser.ConfigParser()
@@ -14,7 +15,8 @@ smtp_email = config['SMTP']['email']
 smtp_password = config['SMTP']['password']
 
 # Email settings
-email_subject = config['EMAIL']['subject']
+# email_subject = config['EMAIL']['subject']
+email_subject = subject
 html_file_path = config['EMAIL']['html_file']
 
 # Read HTML content from the configured file
