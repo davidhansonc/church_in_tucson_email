@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 3 # update weekly
+hwmr_week = 4 # update weekly
 HWMR = """Living a Christian Life and Church Life Under the Government of God for the Economy of God"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999390-hwmr-living-a-christian-life-and-church-life-under-the-government-of-god-for-the-economy-of-god.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999388-ministry-of-the-word-periodical-the-vol-29-no-01-february-2025.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=425"
-ushers = "Jaime/Craig"
+ushers = "Isaac/Jaime"
 
 # Meeting topics to be updated weekly
 thursday_meeting = "Life-study of Matthew"
@@ -21,7 +21,8 @@ announcements = f"""
 Hi saints,
 <br><br>
 
-We have no particular announcements this week. 
+We have no particular announcements this week. Note the memorial day conference upcoming. We will send out more 
+information soon.
 
 <br><br>
 In Him.
