@@ -5,12 +5,12 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 4 # update weekly
+hwmr_week = 5 # update weekly
 HWMR = """Living a Christian Life and Church Life Under the Government of God for the Economy of God"""
 HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999390-hwmr-living-a-christian-life-and-church-life-under-the-government-of-god-for-the-economy-of-god.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999388-ministry-of-the-word-periodical-the-vol-29-no-01-february-2025.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=425"
-ushers = "Isaac/Jaime"
+ushers = "DC/Craig"
 
 # Meeting topics to be updated weekly
 thursday_meeting = "Life-study of Matthew"
@@ -21,8 +21,8 @@ announcements = f"""
 Hi saints,
 <br><br>
 
-We have no particular announcements this week. Note the memorial day conference upcoming. We will send out more 
-information soon.
+There is a sign-up sheet now in the hall for the July semi-annual training. We have the prayer meeting tonight, but 
+the Friday and Saturday Life-study meetings will be canceled this week and next due to ITERO.
 
 <br><br>
 In Him.
@@ -95,14 +95,15 @@ message_html = f"""<!DOCTYPE html>
         <p>
             Tuesday: 7:30 PM Prayer Meeting <br>
             Thursday: 7:30 PM {thursday_meeting} <br>
-            Friday: 7:30 PM {friday_meeting} <br>
-            Saturday: 7:30 PM {saturday_meeting} <br>
             Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
         </p>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Upcoming Events</h2>
         <h4>Memorial Day Blending Conference in Phoenix, AZ | May 23-26, 2025</h4>
             <p>We will fellowship on this in the near future.</p>
+
+        <h4>July Semi-annual Training in Anaheim, CA | June 30 - July 5, 2025</h4>
+            <p>Sign up in the hall!</p>
     </div>
 </body>
 </html>
