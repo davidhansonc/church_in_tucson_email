@@ -5,11 +5,11 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 5 # update weekly
+hwmr_week = 6 # update weekly
 HWMR = """Living a Christian Life and Church Life Under the Government of God for the Economy of God"""
-HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999390-hwmr-living-a-christian-life-and-church-life-under-the-government-of-god-for-the-economy-of-god.html"
-min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999388-ministry-of-the-word-periodical-the-vol-29-no-01-february-2025.html"
-webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=C&subj=425"
+HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999404-hwmr-experiencing-enjoying-and-expressing-christ-2-vol-4.html"
+min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999398-ministry-of-the-word-periodical-the-vol-29-no-02-march-2025.html"
+webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=T&subj=427"
 ushers = "DC/Craig"
 
 # Meeting topics to be updated weekly
@@ -21,8 +21,16 @@ announcements = f"""
 Hi saints,
 <br><br>
 
-There is a sign-up sheet now in the hall for the July semi-annual training. We have the prayer meeting tonight, but 
-the Friday and Saturday Life-study meetings will be canceled this week and next due to ITERO.
+This week is our last week in the current morning revival book. Next week we will start Experiencing, Enjoying, and
+Expressing Christ (2), vol. 4 from the recent December Training. The links to the Holy Word for Morning Revival book are updated 
+below.
+<br><br>
+
+There is a need for ones to volunteer to serve at the upcoming Memorial Day conference. If anyone is willing and able 
+sign up, please let one of the brothers know. Due to state laws, the ones coordinating for the conference are asking 
+that only U.S. citizens volunteer due to a background check process that will be required. Also, if there are any 
+more children that will need childcare, please fill out this 
+<a href="https://form.jotform.com/243344327979165" style="color: #0056b3; text-decoration: none;">form</a>.
 
 <br><br>
 In Him.
@@ -66,8 +74,8 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3;">Lord's Day, {lords_day_date}</h2>
         
         <p><i>{HWMR}, week {hwmr_week}.</i><br><br>
-        For the Holy Word for Morning Revival book and the associated printed and/or audio 
-        messages from the conference, see the following links:</p>
+        For the upcoming Holy Word for Morning Revival book and the associated printed and/or audio 
+        messages from the training, see the following links:</p>
         <ul>
             <li> <a href="{HWMR_link}" style="color: #0056b3; text-decoration: none;">HWMR</a>
             <li> <a href="{min_mag_link}" style="color: #0056b3; text-decoration: none;">Ministry Magazine</a>
@@ -100,10 +108,19 @@ message_html = f"""<!DOCTYPE html>
 
         <h2 style="color: #0056b3; margin-top: 40px;">Upcoming Events</h2>
         <h4>Memorial Day Blending Conference in Phoenix, AZ | May 23-26, 2025</h4>
-            <p>We will fellowship on this in the near future.</p>
+            <p>
+            The conference will be held at the Sheraton Phoenix Downtown. Both live and archived messages of the 
+            conference will be available to be viewed on the 
+            <a href="https://www.lsmwebcast.com/MinMeeting.cfm" style="color: #0056b3; text-decoration: none;">LSM Webcast site</a>. 
+            The site will not require login 
+            credentials to access the messages and will be available for free for 30 days after the conference.
+            <br><br>
+            For childcare registration during the conference messages, please fill out this 
+            <a href="https://form.jotform.com/243344327979165" style="color: #0056b3; text-decoration: none;">form</a>.
+            </p>
 
         <h4>July Semi-annual Training in Anaheim, CA | June 30 - July 5, 2025</h4>
-            <p>Sign up in the hall!</p>
+            <p>Sign up in the hall for the live or video training. Registration is due April 27th.</p>
     </div>
 </body>
 </html>
