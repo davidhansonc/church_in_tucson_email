@@ -5,32 +5,24 @@ from scheduler import get_prophesying_group_order, get_cleaning_group_order#, ge
 
 # Weekly updates
 subject = "Church in Tucson Weekly Announcements"
-hwmr_week = 6 # update weekly
-HWMR = """Living a Christian Life and Church Life Under the Government of God for the Economy of God"""
-HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999404-hwmr-experiencing-enjoying-and-expressing-christ-2-vol-4.html"
+hwmr_week = 14 # update weekly
+HWMR = """Experiencing, Enjoying, and Expressing Christ (2)"""
+HWMR_link = "https://www.livingstream.com/en/holy-word-for-morning-revival/99999397-hwmr-experiencing-enjoying-and-expressing-christ-2-vol-3.html"
 min_mag_link = "https://www.livingstream.com/en/ministry-of-the-word/99999398-ministry-of-the-word-periodical-the-vol-29-no-02-march-2025.html"
 webcast_link = "https://www.lsmwebcast.com/ArchivesDtl.cfm?cat=T&subj=427"
-ushers = "DC/Craig"
+ushers = "Isaac/Craig"
 
-# Meeting topics to be updated weekly
-thursday_meeting = "Life-study of Matthew"
-friday_meeting = "Life-study of James"
-saturday_meeting = "Life-study of Titus"
 
 announcements = f"""
 Hi saints,
 <br><br>
 
-This week is our last week in the current morning revival book. Next week we will start Experiencing, Enjoying, and
-Expressing Christ (2), vol. 4 from the recent December Training. The links to the Holy Word for Morning Revival book are updated 
-below.
+This week we are on week 14 of the Holy Word for Morning Revival which is based on message 2 
+from the December training. 
 <br><br>
-
-There is a need for ones to volunteer to serve at the upcoming Memorial Day conference. If anyone is willing and able 
-sign up, please let one of the brothers know. Due to state laws, the ones coordinating for the conference are asking 
-that only U.S. citizens volunteer due to a background check process that will be required. Also, if there are any 
-more children that will need childcare, please fill out this 
-<a href="https://form.jotform.com/243344327979165" style="color: #0056b3; text-decoration: none;">form</a>.
+This will be the last time we will send out this weekly email. Please save a copy of the church 
+prophesying and cleaning schedule linked below so that we can continue the rotations smoothly. 
+In a few weeks we will reach the end of the current schedule and a new one will be handed out.
 
 <br><br>
 In Him.
@@ -102,7 +94,9 @@ message_html = f"""<!DOCTYPE html>
         <h2 style="color: #0056b3; margin-top: 40px;">Meeting Schedule</h2>
         <p>
             Tuesday: 7:30 PM Prayer Meeting <br>
-            Thursday: 7:30 PM {thursday_meeting} <br>
+            Thursday: 7:30 PM Life-study reading <br>
+            Friday: 7:30 PM Life-study reading <br>
+            Saturday: 7:30 PM Life-study reading <br>
             Lord's Day Morning: 10:00 AM Table meeting and 11:00 AM prophesying meeting <br>
         </p>
 
@@ -120,7 +114,6 @@ message_html = f"""<!DOCTYPE html>
             </p>
 
         <h4>July Semi-annual Training in Anaheim, CA | June 30 - July 5, 2025</h4>
-            <p>Sign up in the hall for the live or video training. Registration is due April 27th.</p>
     </div>
 </body>
 </html>
